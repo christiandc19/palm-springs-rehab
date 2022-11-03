@@ -3,13 +3,18 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './HeroStyles.css'
 
+import BgVideo from '../../assets/hero-vbg.mp4'
+
+
 const Hero = () => {
     return (
         <div className='hero'>
+             <video src={BgVideo} autoPlay muted loop className='video-bg' />
+
             <div className="container">
                 <div className="content">
                     
-                <Fade top><h1>Palm Springs</h1></Fade> 
+                <Fade top><h1>PALM SPRINGS</h1></Fade> 
                 
                 <Fade bottom>
                     <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
