@@ -9,13 +9,6 @@
     background: rgba(0, 0, 0, .4);
     position: relative;
 }
-.treatment-container {
-    width: 1400px;
-    justify-content: left;
-    margin: auto;
-    height: 100%;
-    position: relative;
-}
 
 .treatment:before {
     content: '';
@@ -24,6 +17,14 @@
     height: 100%;
     width: 100%;
     z-index: -1;
+}
+
+.treatment-container {
+    width: 1400px;
+    justify-content: left;
+    margin: auto;
+    height: 100%;
+    position: relative;
 }
 
 .treatment .content {
@@ -45,12 +46,7 @@
     padding-right: 40rem;
 }
 
-.treatment-divider {
-    background: url('../../assets/divider.png') no-repeat center center/cover;
-    height: 2vh;
-    width: 100%;  
-    margin-top: 2rem;
-}
+
 
 /* SECTION 1 */
 
@@ -58,7 +54,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: space-around;
+    justify-content:center;
     margin: auto;
 }
 
@@ -85,10 +81,10 @@
 }
 
 .treatment1-header {
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-left: 3rem;
-    text-align: left;
+    text-align: center;
 }
 
 .treatment-1 p {
@@ -115,8 +111,9 @@
     padding-top: 5rem;
 }
 
-.activities {
+.activities  {
     display: flex;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -124,6 +121,9 @@
     color: var(--primary-color);
 }
 
+.activities span {
+    color: white;
+}
 
 .activity-container {
     width: 100%;
@@ -132,6 +132,7 @@
     background: rgba(0, 0, 0, .5);
     background-attachment: fixed;
 }
+
 
 .activity-container:before {
     background: url('../../assets/activity.jpg') no-repeat center center/cover;

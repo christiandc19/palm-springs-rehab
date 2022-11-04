@@ -18,7 +18,6 @@ import { Link as LinkRoll } from 'react-scroll'
 const InsuranceSection = () => {
     return (
         <>
-        <div className='insuranceSection-divider'></div>
         <div className='InsuranceSection'>
             <div className="container">
                 <h1>WE WORK WITH MAJOR INSURANCE</h1>

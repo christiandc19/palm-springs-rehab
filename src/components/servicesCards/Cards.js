@@ -14,7 +14,6 @@ const Cards = () => {
   return (
     <>
 
-        <div className='cards-divider'></div>
         <div className='cards'>
             <div className="cards-header">
                 <h2>WE OFFER VARIOUS SERVICES </h2>

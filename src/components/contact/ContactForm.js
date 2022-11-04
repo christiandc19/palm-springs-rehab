@@ -28,8 +28,8 @@ const ContactForm = () => {
 
     return (
         <>
+        <div className="contactForm-mainContainer">
             <div className='contactForm'>
-            <div className='contactForm-divider'></div>
                 <div className="map">
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />
@@ -58,6 +58,7 @@ const ContactForm = () => {
                     </form>
                 </div>
             </div>
+    </div>
         </>
     )
 }

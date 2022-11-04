@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import './HeroStyles.css'
+import './Hero.css'
 
 import BgVideo from '../../assets/hero-vbg.mp4'
+import LogoPalm from '../../assets/logo-palm.png'
+
 
 
 const Hero = () => {
@@ -14,6 +16,10 @@ const Hero = () => {
             <div className="container">
                 <div className="content">
                     
+                <div className='palm-image'>
+                    <img src={LogoPalm} alt="" />
+                </div>
+
                 <Fade top><h1>PALM SPRINGS</h1></Fade> 
                 
                 <Fade bottom>

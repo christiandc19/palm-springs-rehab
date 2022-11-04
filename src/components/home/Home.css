@@ -1,14 +1,21 @@
+.WhatWeDoContainer {
+    height: 75vh;
+    background: url('../../assets/whatwedo-bg.jpg') no-repeat center center/cover;
+}
+
+
 .home-whatWeDo {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5rem;
+    width: 1200px;
+    text-align: justify; 
+    padding-top: 10rem;
 }
 
-.home-whatWeDo .description {
-    width: 800px;
-    text-align: justify; 
-    margin-top: 1rem;   
+.home-whatWeDo .description p {
+    color: white;
 }
 
 
@@ -22,9 +29,3 @@
     border-radius: 1rem;
 }
 
-.whatWeDo-divider {
-    background: url('../../assets/divider.png') no-repeat center center/cover;
-    height: 2vh;
-    width: 100%;  
-    margin-top: 1rem;
-}

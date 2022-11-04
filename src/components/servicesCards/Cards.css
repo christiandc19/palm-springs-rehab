@@ -16,12 +16,6 @@
     margin-top: 13rem;
 }
 
-.cards-divider {
-    background: url('../../assets/divider.png') no-repeat center center/cover;
-    height: 2vh;
-    width: 100%;  
-    margin-top: 10rem;
-}
 
 /* iPad Air */
 @media screen and (max-width:1180px) {
@@ -50,7 +44,7 @@
 
     .cards-header {
         width: 700px;
-        margin-top: 5rem;
+        margin-top: 17rem;
         text-align: center;
     }
 
