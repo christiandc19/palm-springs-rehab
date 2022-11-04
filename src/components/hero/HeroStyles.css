@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
 /* .hero {
     width: 100%;
     height: 70vh;
@@ -14,7 +16,6 @@
     width: 100%;
     z-index: -1;
 } */
-
 
 .video-bg {
     width: 100%;
@@ -48,6 +49,7 @@
     color: var(--primary-color);
     font-size: 7rem;
     letter-spacing: .5rem;
+    font-family: 'Arsenal', sans-serif;
 }
 
 .hr-container {

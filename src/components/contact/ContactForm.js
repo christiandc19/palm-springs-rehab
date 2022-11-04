@@ -4,7 +4,7 @@ import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 
 
-import './ContactFormStyles.css';
+import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
 
@@ -28,11 +28,8 @@ const ContactForm = () => {
 
     return (
         <>
-
-
             <div className='contactForm'>
-            <div className='divider'></div>
-
+            <div className='contactForm-divider'></div>
                 <div className="map">
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />

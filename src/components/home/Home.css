@@ -1,0 +1,30 @@
+.home-whatWeDo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.home-whatWeDo .description {
+    width: 800px;
+    text-align: justify; 
+    margin-top: 1rem;   
+}
+
+
+.home-whatWeDo .image {
+    width: 500px; 
+}
+
+.home-whatWeDo img {
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.whatWeDo-divider {
+    background: url('../../assets/divider.png') no-repeat center center/cover;
+    height: 2vh;
+    width: 100%;  
+    margin-top: 1rem;
+}

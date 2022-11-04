@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
+import ContactForm from '../contact/ContactForm'
 
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
@@ -69,7 +70,7 @@ const MissionSection = () => {
             </div>
         </div>
 
-
+        <ContactForm />
 
 </>
     )

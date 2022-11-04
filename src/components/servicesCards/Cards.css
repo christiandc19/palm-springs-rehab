@@ -1,0 +1,61 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -4rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+.cards-header {
+    width: 400px;
+    margin-top: 13rem;
+}
+
+.cards-divider {
+    background: url('../../assets/divider.png') no-repeat center center/cover;
+    height: 2vh;
+    width: 100%;  
+    margin-top: 10rem;
+}
+
+/* iPad Air */
+@media screen and (max-width:1180px) {
+    .cards-divider {
+        margin-top: 16rem;
+    }
+
+    .cards-header {
+        width: 700px;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .card-container {
+        margin-top: 0;
+        margin: auto;
+    }
+}
+
+/* iPad Mini */
+
+@media screen and (max-width:1024px) {
+    .cards-divider {
+        margin-top: 14rem;
+    }
+
+    .cards-header {
+        width: 700px;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .card-container {
+        margin-left: 3.5rem;
+        
+    }
+}

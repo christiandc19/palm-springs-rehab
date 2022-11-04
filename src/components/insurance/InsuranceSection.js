@@ -17,6 +17,8 @@ import { Link as LinkRoll } from 'react-scroll'
 
 const InsuranceSection = () => {
     return (
+        <>
+        <div className='insuranceSection-divider'></div>
         <div className='InsuranceSection'>
             <div className="container">
                 <h1>WE WORK WITH MAJOR INSURANCE</h1>
@@ -69,14 +71,15 @@ const InsuranceSection = () => {
             </div>
 
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/treatment">
-                    <div className='service-cards-btn'>
+                <Link to="/insurance">
+                    <div className='insuranceSection-btn'>
                         <button>Learn More</button>
                     </div>
                 </Link>
             </LinkRoll>
 
         </div>
+        </>
     )
 }
 
