@@ -13,24 +13,23 @@ const Hero = () => {
         <div className='hero'>
              <video src={BgVideo} autoPlay muted loop className='video-bg' />
 
-            <div className="container">
+            <div className="hero-container">
                 <div className="content">
                     
-                <div className='palm-image'>
-                    <img src={LogoPalm} alt="" />
-                </div>
+                    <div className='palm-image'>
+                        <img src={LogoPalm} alt="" />
+                    </div>
 
-                <Fade top><h1>PALM SPRINGS</h1></Fade> 
+                    <Fade top><h1>PALM SPRINGS</h1></Fade> 
                 
-                <Fade bottom>
-                    <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
-                </Fade>
-                    <p>Find your happiness</p>
-                    <p>and learn to put it first.</p>
-                    <Link to="/about-us">
-                    <div><button>Learn More</button></div>
+                    <Fade bottom>
+                        <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
+                    </Fade>
+                        <p>Find your happiness</p>
+                        <p>and learn to put it first.</p>
+                        <Link to="/about-us">
+                        <div><button>Learn More</button></div>
                     </Link>
-
                 </div>
             </div>
         </div>
