@@ -16,6 +16,19 @@
     margin-top: 13rem;
 }
 
+/* Macbook 13in */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .cards-header {
+        width: 1200px;
+        margin-top: 7rem;
+        text-align: center;
+    }
+
+    .card-container {
+        margin-top: 0rem;
+    }
+
+}
 
 /* iPad Air */
 @media screen and (max-width:1180px) {

@@ -91,6 +91,21 @@ h1 {
 
 /* ======================== MEDIA QUERIES FOR iPad Air ================================ */
 
+/* Macbook 13in */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .contactForm-mainContainer {
+        height: 120vh;
+    }
+
+    .contactForm {
+        padding-top: 0;
+        margin-bottom: 0rem;
+        margin: auto;
+    }
+
+}
+
+
 @media screen and (max-width: 820px) {
     .contact-quote {
         margin-top: 10rem;
