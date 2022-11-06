@@ -24,7 +24,7 @@ const InsuranceSection = () => {
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 <div className="content">
 
-                <Fade top>
+                            <Fade top>
                                 <div className='insurance-thumbnail'>
                                     <img src={Aetna} alt="Aetna Logo" loading="lazy" />
                                 </div>

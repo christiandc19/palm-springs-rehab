@@ -66,3 +66,27 @@
         
     }
 }
+
+/* iPad Mini */
+
+@media screen and (max-width:360px) {
+    .cards-header h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+
+    .cards-header p {
+        font-size: 16px;
+        margin: 1rem;
+    }
+
+    .cards {
+        margin-left: 0;
+    }
+
+    .card-container {
+        margin-left: 1rem;
+        
+    }
+
+}

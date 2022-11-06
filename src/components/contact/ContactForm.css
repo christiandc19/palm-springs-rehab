@@ -148,4 +148,27 @@ h1 {
         height: 160vh;
     }
 
+
+    .contactForm-mainContainer iframe {
+        width: 450px;
     }
+
+    }
+
+
+    @media screen and (max-width: 360px) {
+
+        .contactForm-mainContainer iframe {
+            width: 330px;
+        }
+
+        .contactForm-mainContainer {
+            height: 180vh;
+        }
+
+        .contact-container {
+            width: 320px;
+        }
+
+    
+        }

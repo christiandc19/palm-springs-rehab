@@ -29,3 +29,30 @@
     border-radius: 1rem;
 }
 
+/* Mobile Phone */
+@media screen and (max-width:940px) {
+
+.description p{
+    width: 400px;
+    margin-top: -2rem;
+    font-size: 16px;
+}
+
+.home-whatWeDo {
+    width: 400px;
+    margin-top: 1rem;
+}
+
+}
+
+@media screen and (max-width:360px) {
+    .home-whatWeDo {
+        width: 300px;
+        padding-top: 3rem;
+    }
+
+    .home-whatWeDo p {
+        font-size: 14px;
+        padding: 40px;
+    }
+}
