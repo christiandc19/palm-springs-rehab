@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
 import BgVideo from '../../assets/hero-vbg.mp4'
-import LogoPalm from '../../assets/logo-palm.png'
 
 
 
@@ -13,13 +12,9 @@ const Hero = () => {
         <div className='hero'>
              <video src={BgVideo} autoPlay muted loop className='video-bg' />
 
-            <div className="hero-container">
+            <div className="container">
                 <div className="content">
                     
-                    <div className='palm-image'>
-                        <img src={LogoPalm} alt="" />
-                    </div>
-
                     <Fade top><h1>PALM SPRINGS</h1></Fade> 
                 
                     <Fade bottom>

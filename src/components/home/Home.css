@@ -3,30 +3,12 @@
     background: url('../../assets/whatwedo-bg.jpg') no-repeat center center/cover;
 }
 
-
-.home-whatWeDo {
-    margin: auto;
-    text-align: justify; 
-    padding: 20px;
+.container {
+    top: 10%;
 }
 
-.home-whatWeDo .description p {
+.container .description p {
     color: white;
-}
-
-.home-whatWeDo .description {
-    margin-top: 12rem;
-}
-
-
-.home-whatWeDo .image {
-    width: 500px; 
-}
-
-.home-whatWeDo img {
-    width: 100%;
-    margin-top: 2rem;
-    border-radius: 1rem;
 }
 
 
@@ -35,12 +17,18 @@
 /* Smaller Devices*/
 @media screen and (max-width:940px) {
 
-    .home-whatWeDo .description {
-        margin-top: 4rem;
+
+    .container .description p {
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
     }
 
-    .home-whatWeDo .description p {
-        font-size: 14px;
+
+    .container .description h1 {
+        font-size: 2rem;
     }
 
 }
+
+
