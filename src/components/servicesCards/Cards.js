@@ -14,13 +14,12 @@ const Cards = () => {
   return (
     <>
 
-        <div className='cards'>
             <div className="cards-header">
                 <h2>WE OFFER VARIOUS SERVICES </h2>
                 <p>At Palm Springs Rehab, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
-
+        <div className='cards'>
             <div className='card-container'>
                 <Fade bottom>
                     <ServicesCards

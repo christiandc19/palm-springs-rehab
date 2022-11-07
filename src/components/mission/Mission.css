@@ -17,9 +17,6 @@
 .mission .content {
     position: absolute;
     top: 30%;
-    width: 90%;
-    left: 0;
-    padding: 1rem;
 }
 
 .mission h1 {
@@ -28,14 +25,20 @@
 
 .mission p {
     color: #f8f8f8;
-    margin: 1rem 0;
     text-align: justify;
 }
 
 @media screen and (max-width:940px) {
     .mission .content {
     width: 100%;
+    padding: 25px;
     }
+
+    .mission p {
+        color: #f8f8f8;
+        font-size: 14px;
+    }
+
 }
 
 

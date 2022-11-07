@@ -26,8 +26,7 @@ const home = () => {
                 </p><br />
                 </Fade>
             </div>
-
-      </div>
+        </div>
   </div>
     <InsuranceSection />
     <ContactForm />

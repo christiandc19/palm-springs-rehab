@@ -25,7 +25,7 @@ const Treatment = () => {
             {/* -------------------------------- HERO -------------------------------------- */}
 
             <div className='treatment'>
-                <div className="treatment-container">
+                <div className="container">
                     <div className="content">
                         <Fade right>
                             <h1>TREATMENT</h1>

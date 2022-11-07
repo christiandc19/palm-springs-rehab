@@ -6,16 +6,16 @@
 
 .home-whatWeDo {
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 1200px;
     text-align: justify; 
-    padding-top: 10rem;
+    padding: 20px;
 }
 
 .home-whatWeDo .description p {
     color: white;
+}
+
+.home-whatWeDo .description {
+    margin-top: 12rem;
 }
 
 
@@ -31,47 +31,16 @@
 
 
 
-/* MEDIA QUERIES */
 
-/* 360 */
-@media screen and (max-width:360px) {
-    .home-whatWeDo {
-        width: 300px;
-        padding-top: 3rem;
-    }
-
-    .home-whatWeDo p {
-        margin-left: -2.5rem;
-    }
-}
-
-
-/* 390 */
-@media screen and (max-width:390px) {
-    .home-whatWeDo {
-        width: 300px;
-        padding-top: 3rem;
-    }
-
-    .home-whatWeDo p {
-        font-size: 14px;
-        padding: 40px;
-    }
-}
-
-
-/* Mobile Phone */
+/* Smaller Devices*/
 @media screen and (max-width:940px) {
 
-.description p{
-    width: 400px;
-    margin-top: -2rem;
-    font-size: 16px;
-}
+    .home-whatWeDo .description {
+        margin-top: 4rem;
+    }
 
-.home-whatWeDo {
-    width: 400px;
-    margin-top: 1rem;
-}
+    .home-whatWeDo .description p {
+        font-size: 14px;
+    }
 
 }
