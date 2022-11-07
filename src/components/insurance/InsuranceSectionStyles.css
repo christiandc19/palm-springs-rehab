@@ -103,9 +103,23 @@
         height: 170vh;
     }
 
-
 }
 
+/* 390 */
+@media screen and (max-width:390px) {
+    .InsuranceSection h1 {
+        font-size: 1.5rem;
+    }
+
+    .InsuranceSection .content {
+        margin-top: -9rem;
+    }
+
+    .InsuranceSection {
+        height: 160vh;
+    }
+
+}
 
 
 

@@ -29,6 +29,37 @@
     border-radius: 1rem;
 }
 
+
+
+/* MEDIA QUERIES */
+
+/* 360 */
+@media screen and (max-width:360px) {
+    .home-whatWeDo {
+        width: 300px;
+        padding-top: 3rem;
+    }
+
+    .home-whatWeDo p {
+        margin-left: -2.5rem;
+    }
+}
+
+
+/* 390 */
+@media screen and (max-width:390px) {
+    .home-whatWeDo {
+        width: 300px;
+        padding-top: 3rem;
+    }
+
+    .home-whatWeDo p {
+        font-size: 14px;
+        padding: 40px;
+    }
+}
+
+
 /* Mobile Phone */
 @media screen and (max-width:940px) {
 
@@ -43,16 +74,4 @@
     margin-top: 1rem;
 }
 
-}
-
-@media screen and (max-width:360px) {
-    .home-whatWeDo {
-        width: 300px;
-        padding-top: 3rem;
-    }
-
-    .home-whatWeDo p {
-        font-size: 14px;
-        padding: 40px;
-    }
 }

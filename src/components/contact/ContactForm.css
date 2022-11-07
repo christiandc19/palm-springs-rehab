@@ -89,56 +89,79 @@ h1 {
 }
 
 
-/* ======================== MEDIA QUERIES FOR iPad Air ================================ */
+/* ======================== MEDIA QUERIES ================================ */
 
-/* Macbook 13in */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/* Small Devices */
+@media screen and (max-width: 360px) {
+
+    .iframe iframe {
+        display: none;
+    }
+
     .contactForm-mainContainer {
-        height: 120vh;
-    }
-
-    .contactForm {
-        padding-top: 0;
-        margin-bottom: 0rem;
-        margin: auto;
-    }
-
-}
-
-
-@media screen and (max-width: 820px) {
-    .contact-quote {
-        margin-top: 10rem;
-    } 
-    
-    .map {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        width: 100vw;
-    }
-
-
-    .contact-container form {
-        margin-top: 0;
         margin-bottom: 0;
     }
 
     .contact-container {
-        height: 80vh;
+        width: 320px;
     }
 
-    .contactForm {
-        margin-bottom: 38rem;
     }
 
-    .contact-hero h1 {
-        font-size: 3rem;
+
+
+    /* 390 */
+@media screen and (max-width: 390px) {
+
+    .contactForm-mainContainer {
+        margin-bottom: 0rem;
     }
 
-}
+    .contact-container {
+        width: 300px;
+    }
 
-/* ======================== MEDIA QUERIES FOR iPad Mini ================================ */
+    .iframe iframe {
+        display: none;
+    }
 
+    }
+
+
+/* 820px */
+    @media screen and (max-width: 820px) {
+        .contact-quote {
+            margin-top: 10rem;
+        } 
+        
+        .map {
+            margin-top: 1rem;
+            margin-left: 1rem;
+            width: 100vw;
+        }
+    
+    
+        .contact-container form {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    
+        .contact-container {
+            height: 80vh;
+        }
+    
+        .contactForm {
+            margin-bottom: 38rem;
+        }
+    
+        .contact-hero h1 {
+            font-size: 3rem;
+        }
+    
+    }
+
+
+/* 940px */
 @media screen and (max-width: 940px) {
     .contact-quote {
         margin-top: 8rem;
@@ -156,19 +179,17 @@ h1 {
     }
 
 
-    @media screen and (max-width: 360px) {
 
-        .contactForm-mainContainer iframe {
-            width: 330px;
-        }
+    /* Macbook 13in */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .contactForm-mainContainer {
+        height: 120vh;
+    }
 
-        .contactForm-mainContainer {
-            height: 180vh;
-        }
+    .contactForm {
+        padding-top: 0;
+        margin-bottom: 0rem;
+        margin: auto;
+    }
 
-        .contact-container {
-            width: 320px;
-        }
-
-    
-        }
+}
