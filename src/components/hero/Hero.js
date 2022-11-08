@@ -22,9 +22,12 @@ const Hero = () => {
                     </Fade>
                         <p>Find your happiness</p>
                         <p>and learn to put it first.</p>
-                        <Link to="/about-us">
-                        <div><button>Learn More</button></div>
+                        <br />
+                        <div className='hero-btn'>
+                        <Link to="/treatment">
+                        <button>Learn More</button>
                     </Link>
+                    </div>
                 </div>
             </div>
         </div>

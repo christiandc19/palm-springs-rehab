@@ -1,14 +1,24 @@
 .WhatWeDoContainer {
+    position: relative;
     height: 75vh;
     background: url('../../assets/whatwedo-bg.jpg') no-repeat center center/cover;
 }
 
+
 .home-container {
+    position: absolute;
     top: 30%;
 }
 
-.container .description p {
+.home-container .description h1 {
+    font-size: 3rem;
+}
+
+
+.home-container .description p {
     color: white;
+    text-align: justify;
+    padding: 25px;
 }
 
 
@@ -18,14 +28,12 @@
 @media screen and (max-width:940px) {
 
 
-    .container .description p {
+    .home-container .description p {
         font-size: 14px;
-        padding: 25px;
-        text-align: justify;
     }
 
 
-    .container .description h1 {
+    .home-container .description h1 {
         font-size: 2rem;
     }
 

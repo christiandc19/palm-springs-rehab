@@ -17,6 +17,7 @@
     position: absolute;
     top: 0;
     object-fit: cover;
+
 }
 
 
@@ -24,6 +25,7 @@
     top: 30%;
     align-items: center;
     bottom: 10%;
+    z-index: 3333;
 }
 
 
@@ -52,9 +54,11 @@
     color: white;
 }
 
-.hero button {
+.hero .hero-btn button {
     margin: auto;
+    cursor: pointer;
 }
+
 
 /* MEDIA QUERIES */
 
