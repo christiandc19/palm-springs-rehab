@@ -14,7 +14,7 @@ const home = () => {
     <>
     <Cards />
     <div className='WhatWeDoContainer'>
-        <div className='container'>
+        <div className='home-container'>
             <div className='description'>
                 <Fade left>
                 <h1>What We Do</h1>
