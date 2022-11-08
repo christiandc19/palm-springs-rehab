@@ -15,13 +15,12 @@ const About = () => {
                             <Fade top>
                                 <h1>WHO WE ARE</h1>
                             </Fade>
-
                         </div>
                     </div>
             </div>
 
                                 <div className="aboutUsContainer">
-                                    <h1>About Us</h1>
+                                    <h1>ABOUT US</h1>
 
                                     <Fade top>
                                     <p>

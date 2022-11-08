@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import BgVideo from '../../assets/hero-vbg.mp4'
+import BgVideo from '../../assets/hero-vbg2.mp4'
 
 
 

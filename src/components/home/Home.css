@@ -4,7 +4,7 @@
 }
 
 .container {
-    top: 10%;
+    top: 30%;
 }
 
 .container .description p {
@@ -20,7 +20,7 @@
 
     .container .description p {
         font-size: 14px;
-        padding: 10px;
+        padding: 25px;
         text-align: justify;
     }
 
