@@ -33,11 +33,6 @@ const Treatment = () => {
                         <Fade left>
                             <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and reassessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
                         </Fade>
-                        <div>
-                            <Link to="/contact">
-                                <button>Contact Us</button>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -120,10 +115,6 @@ const Treatment = () => {
     </div>
           
 
-                {/* <div className='service-1-image'>
-                    <img src={Activity} alt="" />
-                </div> */}
-                        {/* <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today.</p> */}
 
         <ContactForm />
         </>

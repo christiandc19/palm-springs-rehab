@@ -5,6 +5,8 @@ import './Hero.css'
 
 import BgVideo from '../../assets/hero-vbg2.mp4'
 
+import HeroLogo from '../../assets/palm-springs-logo-1.png'
+
 
 
 const Hero = () => {
@@ -15,7 +17,13 @@ const Hero = () => {
             <div className="container">
                 <div className="content">
                     
-                    <Fade top><h1>PALM SPRINGS</h1></Fade> 
+
+                    <div className='hero-logo'>
+                    <Fade left>
+                        <img src={ HeroLogo } alt="" />
+                    </Fade>
+                    </div>
+
                 
                     <Fade bottom>
                         <h2 className='subtitle'>Mental Health  Treatment Facility </h2>

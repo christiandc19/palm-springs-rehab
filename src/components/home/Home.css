@@ -1,13 +1,12 @@
 .WhatWeDoContainer {
-    position: relative;
-    height: 75vh;
+    height: 50vh;
     background: url('../../assets/whatwedo-bg.jpg') no-repeat center center/cover;
 }
 
 
-.home-container {
+.home-container  {
     position: absolute;
-    top: 30%;
+    padding: 2rem 0;
 }
 
 .home-container .description h1 {
@@ -24,8 +23,11 @@
 
 
 
-/* Smaller Devices*/
-@media screen and (max-width:940px) {
+
+
+
+/* Small Size Devices*/
+@media screen and (min-width: 320px) and (max-width:480px) {
 
 
     .home-container .description p {
@@ -35,8 +37,50 @@
 
     .home-container .description h1 {
         font-size: 2rem;
+    } 
+    .WhatWeDoContainer {
+        height: 50vh;
+    }
+    
+}
+
+
+/* Medium Size Devices*/
+@media screen and (min-width: 481px) and (max-width:768px) {
+
+
+    .home-container .description p {
+        font-size: 14px;
     }
 
+
+    .home-container .description h1 {
+        font-size: 2rem;
+    } 
+    .WhatWeDoContainer {
+        height: 40vh;
+    }
+    
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media screen and (min-width: 769px) and (max-width:940px) {
+
+    .home-container .description p {
+        font-size: 14px;
+    }
+
+
+    .home-container .description h1 {
+        font-size: 2rem;
+    } 
+    .WhatWeDoContainer {
+        height: 30vh;
+    }
+    
+}
+
+
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import './Insurance.css'
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
+import InsuranceSection from './InsuranceSection';
 
 
 
@@ -27,7 +28,8 @@ const Insurance = () => {
                 </div>
             </div>
             <div className='divider'></div>
-
+            
+            
         </>
 
     )

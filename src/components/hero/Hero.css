@@ -11,15 +11,14 @@
     z-index: -2;
 }
 
+
 .video-bg {
     width: 100%;
     height: 100vh;
     position: absolute;
     top: 0;
     object-fit: cover;
-
 }
-
 
 .hero .container {
     top: 30%;
@@ -28,17 +27,16 @@
     z-index: 3333;
 }
 
+.hero-logo {
+    margin: auto;
+}
 
 .subtitle {
     letter-spacing: .5rem;
 }
 
-
-.hero h1 {
-    color: var(--primary-color);
-    font-size: 7rem;
-    letter-spacing: .5rem;
-    font-family: 'Arsenal', sans-serif;
+.hero-logo {
+    text-align: center;
 }
 
 
@@ -64,10 +62,6 @@
 
 @media screen and (max-width:940px) {
 
-    .hero h1 {
-        font-size: 3rem;
-    }
-
     .hero h2 {
         font-size: 24px;
     }
@@ -76,5 +70,8 @@
         font-size: 16px;
     }
 
-}
+    .hero-logo img {
+        width: 50%;
+    }
 
+}

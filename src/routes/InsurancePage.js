@@ -12,6 +12,7 @@ import Bluecross from '../assets/bluecross.png'
 import Cigna from '../assets/cigna.png'
 import MHN from '../assets/mhn.png'
 import United from '../assets/united-healthcare.png'
+import InsuranceSection from '../components/insurance/InsuranceSection';
 
 
 
@@ -21,40 +22,7 @@ const InsurancePage = () => {
         <>
            <Navbar /> 
            <Insurance />
-
-        <div className='insuranceLogos'>
-            <Fade top>
-            <InsuranceLogos Image = { MolinaHealthCare }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { Aetna }/>
-            </Fade>
-
-            <Fade top>
-            <InsuranceLogos Image = { Beacon }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { Bluecross }/>
-            </Fade>
-
-            <Fade top>
-            <InsuranceLogos Image = { Cigna }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { MHN }/>
-            </Fade>
-            
-            <Fade top>
-            <InsuranceLogos Image = { United }/>
-            </Fade>
-        </div>
-
-
-
-
+           <InsuranceSection />
            <Footer />
         </>
     )

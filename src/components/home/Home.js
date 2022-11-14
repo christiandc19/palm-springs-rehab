@@ -29,7 +29,6 @@ const home = () => {
         </div>
   </div>
     <InsuranceSection />
-    <ContactForm />
 
 
     </>
