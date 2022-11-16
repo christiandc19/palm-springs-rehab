@@ -1,7 +1,6 @@
 import React from 'react'
 import Cards from '../servicesCards/Cards'
 import InsuranceSection from '../insurance/InsuranceSection';
-import ContactForm from '../contact/ContactForm';
 
 import './Home.css'
 

@@ -17,9 +17,6 @@ const MissionSection = () => {
             <div className="container">
                 <div className="content">
                     <h1>What We Can Provide</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
-
-
                             <div className='flex-right'>
 
                             <Fade top>
