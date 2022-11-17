@@ -12,7 +12,7 @@ import HeroLogo from '../../assets/palm-springs-logo-1.png'
 const Hero = () => {
     return (
         <div className='hero'>
-             <video src={BgVideo} autoPlay muted loop className='video-bg' />
+             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
             <div className="container">
                 <div className="content">
