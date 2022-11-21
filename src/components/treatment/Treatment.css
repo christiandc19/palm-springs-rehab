@@ -140,7 +140,12 @@
     .treatment .content {
         width: 100%;
         padding: 25px;
-        }
+    }
+
+    .treatment h1 {
+         text-align: center;
+         font-size: 1.5rem;
+    }
 
     .treatment p {
         font-size: 14px;

@@ -13,7 +13,7 @@
 
 
 .home-container .description p {
-    color: var(--primary-color);
+    color: white;
     text-align: justify;
     padding: 25px;
 }
@@ -33,7 +33,7 @@
 
 
     .home-container .description h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     } 
 
 }

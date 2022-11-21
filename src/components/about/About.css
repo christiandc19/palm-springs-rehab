@@ -47,6 +47,10 @@
     .about .content {
     width: 100%;
     }
+    
+    .about h1 {
+        font-size: 3rem;
+    }
 
     .aboutUsContainer h1{
         font-size: 2rem;

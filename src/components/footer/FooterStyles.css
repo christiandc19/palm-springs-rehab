@@ -49,6 +49,9 @@
     font-size: 2rem;
 }
 
+.footer h3 {
+    color: var(--primary-color);
+}
 
 .footer .col-container {
     display: grid;

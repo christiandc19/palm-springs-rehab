@@ -20,9 +20,9 @@
 
 
 /* Small Size Devices*/
-@media screen and (min-width: 320px) and (max-width:480px) {
+@media screen and (max-width:940px) {
     .cards-header h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 1rem;
     }
 
@@ -32,13 +32,4 @@
 }
 
 
-/* Medium Size Devices*/
-@media screen and (min-width: 481px) and (max-width:768px) {
-    
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-
-@media screen and (min-width: 769px) and (max-width:940px) {
-
-}
