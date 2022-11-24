@@ -25,7 +25,9 @@
 }
 
 .treatment h1 {
+    color: white;
     text-align: left;
+    padding: 10px 0;
 }
 
 .treatment p {

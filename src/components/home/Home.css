@@ -1,27 +1,35 @@
-.WhatWeDoContainer {
-    height: auto;
-    background: url('../../assets/whatwedo-bg.jpg') no-repeat center center/cover;
+.what-we-do {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    object-fit: cover;
+    z-index: -2;
 }
 
-.home-container  {
-    padding: 2rem 0;
+.what-we-do-video-bg {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
 }
 
-.home-container .description h1 {
-    font-size: 3rem;
+
+.what-we-do .container {
+    top: 10%;
+    padding: 2rem;
+    width: auto;
 }
 
-
-.home-container .description p {
-    color: white;
+.what-we-do p {
+    color: rgb(0, 0, 0);
     text-align: justify;
-    padding: 25px;
 }
 
-
-
-
-
+.what-we-do h1 {
+    color: var(--primary-color);
+}
 
 
 
@@ -35,6 +43,14 @@
     .home-container .description h1 {
         font-size: 1.5rem;
     } 
+
+    .what-we-do p {
+        font-size: 14px;
+    }
+    
+    .what-we-do h1 {
+        font-size: 1.5rem;
+    }
 
 }
 

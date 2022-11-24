@@ -15,6 +15,9 @@
     padding: 25px;
 }
 
+.InsuranceSection h1 {
+    padding: 1rem;
+}
 
 .insurance-thumbnail img {
     margin: 5px;
