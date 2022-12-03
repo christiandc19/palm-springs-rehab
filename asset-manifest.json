@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/palm-springs-rehab/static/css/main.e7ee5211.css",
-    "main.js": "/palm-springs-rehab/static/js/main.ce944595.js",
+    "main.js": "/palm-springs-rehab/static/js/main.390a36ab.js",
     "static/media/overlay.mp4": "/palm-springs-rehab/static/media/overlay.1da13a28f4b75a44c89e.mp4",
     "static/media/treatment-bg1.jpg": "/palm-springs-rehab/static/media/treatment-bg1.9d7c2ad5cedd9a15eea4.jpg",
     "static/media/contact-form-bg.jpg": "/palm-springs-rehab/static/media/contact-form-bg.afb52cf273f06c49b971.jpg",
@@ -30,10 +30,10 @@
     "static/media/cigna.png": "/palm-springs-rehab/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/palm-springs-rehab/index.html",
     "main.e7ee5211.css.map": "/palm-springs-rehab/static/css/main.e7ee5211.css.map",
-    "main.ce944595.js.map": "/palm-springs-rehab/static/js/main.ce944595.js.map"
+    "main.390a36ab.js.map": "/palm-springs-rehab/static/js/main.390a36ab.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ee5211.css",
-    "static/js/main.ce944595.js"
+    "static/js/main.390a36ab.js"
   ]
 }
