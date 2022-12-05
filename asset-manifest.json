@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/palm-springs-rehab/static/css/main.a36ffab8.css",
-    "main.js": "/palm-springs-rehab/static/js/main.81eabcf2.js",
+    "main.css": "/palm-springs-rehab/static/css/main.641655db.css",
+    "main.js": "/palm-springs-rehab/static/js/main.e2a11331.js",
     "static/media/overlay.mp4": "/palm-springs-rehab/static/media/overlay.1da13a28f4b75a44c89e.mp4",
-    "static/media/treatment-bg1.jpg": "/palm-springs-rehab/static/media/treatment-bg1.9d7c2ad5cedd9a15eea4.jpg",
-    "static/media/mission-bg.jpg": "/palm-springs-rehab/static/media/mission-bg.d0cbcd568ceec410ecc2.jpg",
     "static/media/hero-vbg.mp4": "/palm-springs-rehab/static/media/hero-vbg.f1efe237d8384b832237.mp4",
     "static/media/footer-bg.jpg": "/palm-springs-rehab/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/therapy.jpg": "/palm-springs-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
-    "static/media/activity.jpg": "/palm-springs-rehab/static/media/activity.09e422b6364bd74b4662.jpg",
     "static/media/contact-bg.jpg": "/palm-springs-rehab/static/media/contact-bg.0c3020b70d33b203d306.jpg",
+    "static/media/treatment-bg1.jpg": "/palm-springs-rehab/static/media/treatment-bg1.0a22211aee10cbbdcae5.jpg",
     "static/media/staff.jpg": "/palm-springs-rehab/static/media/staff.9b2630a4cc05d70cac0f.jpg",
-    "static/media/treatment-image-1.jpg": "/palm-springs-rehab/static/media/treatment-image-1.fc77af1788dfb81fdb64.jpg",
+    "static/media/mission-bg.jpg": "/palm-springs-rehab/static/media/mission-bg.2de4a512a9eed4d3101b.jpg",
+    "static/media/activity.jpg": "/palm-springs-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/card2.jpg": "/palm-springs-rehab/static/media/card2.811ee7bcce1ab0aa150d.jpg",
-    "static/media/about-us-bg.jpg": "/palm-springs-rehab/static/media/about-us-bg.b462c72e374e14104950.jpg",
+    "static/media/treatment-image-1.jpg": "/palm-springs-rehab/static/media/treatment-image-1.a8127dcfad31629b3019.jpg",
     "static/media/contact-form-bg.jpg": "/palm-springs-rehab/static/media/contact-form-bg.211b2c047e23c1868b93.jpg",
     "static/media/palm-springs-logo-1.png": "/palm-springs-rehab/static/media/palm-springs-logo-1.6f09761fac47587149c0.png",
     "static/media/card3.jpg": "/palm-springs-rehab/static/media/card3.df22646308c5b4081ce9.jpg",
     "static/media/card1.jpg": "/palm-springs-rehab/static/media/card1.f4e0a52479d672d16ebb.jpg",
-    "static/media/insurance-bg.jpg": "/palm-springs-rehab/static/media/insurance-bg.44f54a9a86c1a3fcd015.jpg",
     "static/media/employment-assistance2.png": "/palm-springs-rehab/static/media/employment-assistance2.f36d5a1e0fd48de437f9.png",
     "static/media/clinic.jpg": "/palm-springs-rehab/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
+    "static/media/about-us-bg.jpg": "/palm-springs-rehab/static/media/about-us-bg.7600b314f55eb1d330d2.jpg",
+    "static/media/insurance-bg.jpg": "/palm-springs-rehab/static/media/insurance-bg.53a00e85e1c7ce590f3e.jpg",
     "static/media/mhn.png": "/palm-springs-rehab/static/media/mhn.355f6f9c947de530f3db.png",
     "static/media/beacon.png": "/palm-springs-rehab/static/media/beacon.1508237aac3182ac96e8.png",
     "static/media/molina-healthcare.png": "/palm-springs-rehab/static/media/molina-healthcare.02bb9c11359036acc206.png",
@@ -29,11 +29,11 @@
     "static/media/bluecross.png": "/palm-springs-rehab/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/palm-springs-rehab/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/palm-springs-rehab/index.html",
-    "main.a36ffab8.css.map": "/palm-springs-rehab/static/css/main.a36ffab8.css.map",
-    "main.81eabcf2.js.map": "/palm-springs-rehab/static/js/main.81eabcf2.js.map"
+    "main.641655db.css.map": "/palm-springs-rehab/static/css/main.641655db.css.map",
+    "main.e2a11331.js.map": "/palm-springs-rehab/static/js/main.e2a11331.js.map"
   },
   "entrypoints": [
-    "static/css/main.a36ffab8.css",
-    "static/js/main.81eabcf2.js"
+    "static/css/main.641655db.css",
+    "static/js/main.e2a11331.js"
   ]
 }
