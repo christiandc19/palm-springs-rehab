@@ -3,7 +3,7 @@
 :root {
   --primary-color: #7F669D;
   --primary-dark: #0d2154;
-  --secondary-color: #2dbd28;
+  --secondary-color: #46a828;
 
 }
 
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #7F669D;
+  color: var(--secondary-color);
 }
 
 p {

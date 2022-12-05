@@ -62,20 +62,6 @@ const Footer = () => {
                         </LinkRoll>
                         
                     </div>
-                    {/* <div className="col">
-                        <h3>Information</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
-                    </div>
-                    <div className="col">
-                        <h3>Legal</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
-                    </div> */}
                     <form>
                         <h3>Join Our Team</h3>
                         <input type="email" placeholder='Enter your email' />
