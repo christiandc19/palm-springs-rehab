@@ -28,8 +28,7 @@ const Hero = () => {
                     <Fade bottom>
                         <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
                     </Fade>
-                        <p>Find your happiness</p>
-                        <p>and learn to put it first.</p>
+                        <p>Find your happiness and learn to put it first.</p>
                         <br />
                         <div className='hero-btn'>
                         <Link to="/treatment">
