@@ -33,7 +33,7 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 (323) 452-1224  </p><br /> 
+                        <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224  </a></p><br /> 
                         <p><AiOutlineMail /> info@domainName.com  </p><br />
                         <p><BsFillPinMapFill /> 68487 E Palm Canyon Dr, STE 44, Cathedral City CA 92234 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
