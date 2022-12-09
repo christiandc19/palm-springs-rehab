@@ -13,9 +13,9 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 
-                <div className="logo">
+                <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logo} width="220px" height="100px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 

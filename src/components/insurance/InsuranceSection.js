@@ -27,44 +27,44 @@ const InsuranceSection = () => {
                 <div className="content">
                             <Fade top>
                                 <div className='insurance-thumbnail'>
-                                    <img src={Aetna} alt="Aetna Logo" loading="lazy" />
+                                <img src={Aetna} width="640" height="200" alt="Aetna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                    <img src={Beacon} alt="Beacon Logo" loading="lazy" />
+                                <img src={Beacon} width="640" height="200" alt="Beacon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade top>
                                 <div className='insurance-thumbnail'>
-                                    <img src={Bluecross} alt="Bluecross Logo" loading="lazy" />
+                                <img src={Bluecross} width="640" height="200" alt="Bluecross Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                    <img src={Cigna} alt="Cigna Logo" loading="lazy" />
+                                <img src={Cigna} width="640" height="200" alt="Cigna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                    <img src={MolinaHealthCare} alt="Cigna Logo" loading="lazy" />
+                                <img src={MolinaHealthCare} width="640" height="200" alt="MolinaHealthCare Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                    <img src={MHN} alt="Cigna Logo" loading="lazy" />
+                                <img src={MHN} width="640" height="200" alt="MHN Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                    <img src={United} alt="Cigna Logo" loading="lazy" />
+                                <img src={United} width="640" height="200" alt="United Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>

@@ -5,7 +5,7 @@ function ServicesCards(props) {
   return (
         <div className="servicesCards">
             <div>
-            <img className='image' src= {props.Image} alt="logo" />
+            <img src={props.Image} width="640" height="200" alt="services" />
             </div>
             
             <div>

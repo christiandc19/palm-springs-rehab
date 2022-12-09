@@ -43,7 +43,7 @@ const Treatment = () => {
                 <h1 className='treatment1-header'>KEY AREAS/FUNDAMENTALS</h1>
                     <div className='description1'>
                         <div className='flex-item-3'>
-                            <img src={Service1} alt="" />
+                        <img src={Service1} width="500" height="300" alt="palm trees" />
                         </div>
                         <Fade left>
                         <div className='flex-item-1'>

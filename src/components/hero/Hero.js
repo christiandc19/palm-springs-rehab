@@ -14,13 +14,13 @@ const Hero = () => {
         <div className='hero'>
              <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-            <div className="container">
+            <div className="hero-container">
                 <div className="content">
                     
 
                     <div className='hero-logo'>
                     <Fade left>
-                        <img src={ HeroLogo } alt="" />
+                    <img src={HeroLogo} width="200px" height="150px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Fade>
                     </div>
 

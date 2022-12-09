@@ -8,7 +8,7 @@
 .footer:before {
     content:'';
     position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/footer-bg.webp')no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -21,9 +21,9 @@
     justify-content: center;
 }
 
-.logo-footer img{
+/* .logo-footer img{
     width: 30%;
-}
+} */
 
 
 .footer .top {
@@ -124,9 +124,9 @@
         grid-column: 1 / span 2;
     }
 
-    .logo-footer img{
+    /* .logo-footer img{
         width: 50%;
-    }
+    } */
 }
 
 

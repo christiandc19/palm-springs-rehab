@@ -9,20 +9,20 @@
 .navbar .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.navbar .logo {
+/* .navbar .logo {
     display: flex;
     align-items: center;
     color: #fff;
     margin: 1rem;
-}
+} */
 
-.logo img{
+/* .logo img{
     width: 30%;
-}
+} */
 
 .navbar .logo .icon {
     font-size: 3rem;
@@ -65,9 +65,10 @@
         z-index: 15;
     }
 
-    .logo img{
+
+    /* .logo img{
         width: 45%;
-    }
+    } */
 
     .navbar .nav-menu {
         position: absolute;
