@@ -40,7 +40,7 @@ const ContactForm = () => {
                     </div>
 
                     <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=1800%20Vine%20Street%20Los%20Angle&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=68487%20E%20Palm%20Canyon%20Dr,%20STE%2044,%20Cathedral%20City%20CA%2092234+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
                     </div>
                 </div>
 
