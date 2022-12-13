@@ -6,9 +6,11 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
-import MolinaHealthCare from '../../assets/molina-healthcare.png'
-import MHN from '../../assets/mhn.png'
+import Horizon from '../../assets/horizon.png'
+import UMR from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
+import Optima from '../../assets/optima.png'
+import Optum from '../../assets/optum.png'
 
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -38,7 +40,7 @@ const InsuranceSection = () => {
                                 </div>
                             </Fade>
 
-                            <Fade top>
+                            <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={Bluecross} width="640" height="200" alt="Bluecross Insurance Logo" loading="lazy"/>
                                 </div>
@@ -52,19 +54,29 @@ const InsuranceSection = () => {
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={MolinaHealthCare} width="640" height="200" alt="MolinaHealthCare Insurance Logo" loading="lazy"/>
+                                <img src={Horizon} width="640" height="200" alt="Horizon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={MHN} width="640" height="200" alt="MHN Insurance Logo" loading="lazy"/>
+                                <img src={UMR} width="640" height="200" alt="UMR Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={United} width="640" height="200" alt="United Insurance Logo" loading="lazy"/>
+                                </div>
+                            </Fade>
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                <img src={Optima} width="640" height="200" alt="Optima Health Insurance Logo" loading="lazy"/>
+                                </div>
+                            </Fade>
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                <img src={Optum} width="640" height="200" alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>
