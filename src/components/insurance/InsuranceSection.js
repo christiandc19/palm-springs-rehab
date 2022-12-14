@@ -11,6 +11,7 @@ import UMR from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
 import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
+import Anthem from '../../assets/anthem.png'
 
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -27,7 +28,7 @@ const InsuranceSection = () => {
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
                 <div className="content">
-                            <Fade top>
+                            <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={Aetna} width="640" height="200" alt="Aetna Insurance Logo" loading="lazy"/>
                                 </div>
@@ -77,6 +78,11 @@ const InsuranceSection = () => {
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={Optum} width="640" height="200" alt="Optum Health Insurance Logo" loading="lazy"/>
+                                </div>
+                            </Fade>
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                <img src={Anthem} width="640" height="200" alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>
