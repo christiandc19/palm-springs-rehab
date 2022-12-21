@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/palm-springs-rehab/static/css/main.c3ebf310.css",
-    "main.js": "/palm-springs-rehab/static/js/main.dd5a6dd9.js",
-    "static/media/overlay.mp4": "/palm-springs-rehab/static/media/overlay.1da13a28f4b75a44c89e.mp4",
+    "main.css": "/palm-springs-rehab/static/css/main.dd606797.css",
+    "main.js": "/palm-springs-rehab/static/js/main.572c5e1f.js",
     "static/media/hero-vbg.mp4": "/palm-springs-rehab/static/media/hero-vbg.f1efe237d8384b832237.mp4",
     "static/media/therapy.jpg": "/palm-springs-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
     "static/media/contact-bg.jpg": "/palm-springs-rehab/static/media/contact-bg.0c3020b70d33b203d306.jpg",
@@ -12,6 +11,7 @@
     "static/media/mission-bg.jpg": "/palm-springs-rehab/static/media/mission-bg.2de4a512a9eed4d3101b.jpg",
     "static/media/activity.jpg": "/palm-springs-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/card2.jpg": "/palm-springs-rehab/static/media/card2.811ee7bcce1ab0aa150d.jpg",
+    "static/media/whatwedo.jpg": "/palm-springs-rehab/static/media/whatwedo.ff0f00fb469efff2597b.jpg",
     "static/media/treatment-image-1.jpg": "/palm-springs-rehab/static/media/treatment-image-1.a8127dcfad31629b3019.jpg",
     "static/media/contact-form-bg.jpg": "/palm-springs-rehab/static/media/contact-form-bg.211b2c047e23c1868b93.jpg",
     "static/media/palm-springs-logo-1.png": "/palm-springs-rehab/static/media/palm-springs-logo-1.6f09761fac47587149c0.png",
@@ -32,11 +32,11 @@
     "static/media/anthem.png": "/palm-springs-rehab/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/palm-springs-rehab/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/palm-springs-rehab/index.html",
-    "main.c3ebf310.css.map": "/palm-springs-rehab/static/css/main.c3ebf310.css.map",
-    "main.dd5a6dd9.js.map": "/palm-springs-rehab/static/js/main.dd5a6dd9.js.map"
+    "main.dd606797.css.map": "/palm-springs-rehab/static/css/main.dd606797.css.map",
+    "main.572c5e1f.js.map": "/palm-springs-rehab/static/js/main.572c5e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3ebf310.css",
-    "static/js/main.dd5a6dd9.js"
+    "static/css/main.dd606797.css",
+    "static/js/main.572c5e1f.js"
   ]
 }
