@@ -50,6 +50,78 @@
     height: 20px;
 }
 
+
+/* -----------------------------------------------------> NAVBAR MENU & SUB-MENU ITEMS */
+/* .menu-item a {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+    position: relative;
+    display: block;
+    color: #ffffff;
+    margin: 27px 17px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .menu-item .sub__menus li a {
+    color: #000000 !important;
+  }
+
+  .menu-item .sub__menus li:hover a {
+    color: #07a8ff !important;
+  }
+
+  .header__middle__menus {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__middle__menus .btn {
+    padding-top: 10px;
+  } */
+
+
+
+  .menu-item .sub__menus li a {
+    color: #000000 !important;
+  }
+
+
+/* -----------------------------------------------------> SUB MENU */
+.sub__menus {
+    position: absolute;
+    display: none;
+    background: white;
+    border: 1px solid lavender;
+    border-radius: 10px;
+    width: 280px;
+    /* left: -17px; */
+    padding: 2px 0 0 0;
+    margin-top: 10px;
+    z-index: 1000;
+  }
+
+  /* -----------------------------------------------------> ACTIVE MENU */
+  .is-active {
+    color: #ff5800!important;
+  }
+
+  /* -----------------------------------------------------> DROPDOWN ARROW */
+  .sub__menus__arrows {
+    position: relative;
+  }
+
+  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+    padding-top: 0px;
+    position: absolute;
+    top: 19px;
+  }
+
+
+
+
 @media screen and (max-width: 940px) {
     .navbar .hamburger {
         display: block;

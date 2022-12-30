@@ -1,12 +1,43 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import {Link} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/palm-springs-logo-1.png'
+import {FiChevronDown } from "react-icons/fi";
+
 import './NavbarStyles.css'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => setNav(!nav)
+
+    const [isMenu, setisMenu] = useState(false);
+
+
+    const toggleClass = () => {
+        setisMenu(isMenu === false ? true : false);
+    };
+
+    let boxClass = ["main-menu menu-right menuq1"];
+    if(isMenu) {
+        boxClass.push('menuq2');
+    }else{
+        boxClass.push('');
+    }
+
+    const [isMenuSubMenu, setMenuSubMenu] = useState(false);
+      
+    const toggleSubmenu = () => {
+      setMenuSubMenu(isMenuSubMenu === false ? true : false);
+    };
+    
+    let boxClassSubMenu = ["sub__menus"];
+    if(isMenuSubMenu) {
+        boxClassSubMenu.push('sub__menus__Active');
+    }else {
+        boxClassSubMenu.push('');
+    }
+
+
 
 
     return (
@@ -19,8 +50,20 @@ const Navbar = () => {
                     </Link>
                 </div>
 
+
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
+                    
+                    <li onClick={toggleSubmenu} className="menu-item menu-item-program sub__menus__arrows" > <Link to="#"> Program <FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} > 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/PHP`}> Partial Hospitalization Program </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/IOP`}> Intensive Outpatient Program </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/OP`}> Outpatient Program </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
+                        </ul>
+                    </li>
+
+
                     <li><Link to='/treatment'>Treatment</Link> </li>
                     <li><Link to='/mission'>Our Mission</Link> </li>
                     <li><Link to='/about-us'>About Us</Link> </li>
