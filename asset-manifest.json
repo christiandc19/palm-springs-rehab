@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/palm-springs-rehab/static/css/main.dd606797.css",
-    "main.js": "/palm-springs-rehab/static/js/main.572c5e1f.js",
+    "main.css": "/palm-springs-rehab/static/css/main.564df889.css",
+    "main.js": "/palm-springs-rehab/static/js/main.f1a8fa19.js",
     "static/media/hero-vbg.mp4": "/palm-springs-rehab/static/media/hero-vbg.f1efe237d8384b832237.mp4",
     "static/media/therapy.jpg": "/palm-springs-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
     "static/media/contact-bg.jpg": "/palm-springs-rehab/static/media/contact-bg.0c3020b70d33b203d306.jpg",
@@ -32,11 +32,11 @@
     "static/media/anthem.png": "/palm-springs-rehab/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/palm-springs-rehab/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/palm-springs-rehab/index.html",
-    "main.dd606797.css.map": "/palm-springs-rehab/static/css/main.dd606797.css.map",
-    "main.572c5e1f.js.map": "/palm-springs-rehab/static/js/main.572c5e1f.js.map"
+    "main.564df889.css.map": "/palm-springs-rehab/static/css/main.564df889.css.map",
+    "main.f1a8fa19.js.map": "/palm-springs-rehab/static/js/main.f1a8fa19.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd606797.css",
-    "static/js/main.572c5e1f.js"
+    "static/css/main.564df889.css",
+    "static/js/main.f1a8fa19.js"
   ]
 }
