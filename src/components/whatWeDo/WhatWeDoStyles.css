@@ -6,9 +6,8 @@
 }
 
 .box {
-	width: 600px;
     height: auto;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 1rem;
 }
 
@@ -45,7 +44,7 @@ p {
     }
 
     .wrap .header {
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
     }
 
