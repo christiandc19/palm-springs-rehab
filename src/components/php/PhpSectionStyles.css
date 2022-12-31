@@ -26,16 +26,16 @@
   
   /* MEDIA QUERIES */
   
-  @media screen and (max-width:390px) {
+  @media screen and (max-width:490px) {
   
-      .box {
+      /* .box {
           width: 300px;
-      }
+      } */
   
-      .box img {
+      /* .box img {
           width: 300px;
           height: 300px;
-      }
+      } */
   
       p {
           font-size: 14px;

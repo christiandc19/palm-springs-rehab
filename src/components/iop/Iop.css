@@ -17,6 +17,7 @@
 .iop .content {
     position: absolute;
     top: 30%;
+    padding: 15px;
 }
 
 .iop h1 {

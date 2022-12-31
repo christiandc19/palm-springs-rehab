@@ -17,6 +17,7 @@
 .jobs .content {
     position: absolute;
     top: 30%;
+    padding: 15px;
 }
 
 .jobs h1 {
