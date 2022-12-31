@@ -30,15 +30,6 @@
   
   @media screen and (max-width:390px) {
   
-      /* .box {
-          width: 300px;
-      }
-  
-      .box img {
-          width: 300px;
-          height: 300px;
-      } */
-  
       p {
           font-size: 14px;
           text-align: center;
@@ -53,4 +44,12 @@
           margin: 1rem auto;
           
       }
+  }
+
+  
+  @media screen and (max-width:375px) {
+    .box img {
+        width: 350px;
+        height: 300px;
+    }
   }
