@@ -13,7 +13,7 @@
 }
 
 .wrap .header {
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -29,7 +29,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:375px) {
 
     .box {
         width: 300px;
@@ -41,7 +41,6 @@ p {
 
     p {
         font-size: 14px;
-        text-align: center;
     }
 
     .wrap .header {
@@ -49,8 +48,4 @@ p {
         text-align: center;
     }
 
-    .wrap .box-btn button {
-        margin: 1rem auto;
-        
-    }
 }
