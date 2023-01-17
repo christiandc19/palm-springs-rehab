@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .box {
@@ -13,7 +13,7 @@
 }
 
 .wrap .header {
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -29,14 +29,11 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:600px) {
 
-    .box {
-        width: 300px;
-    }
 
     .box img {
-        width: 350px;
+        display: none;
     }
 
     p {
@@ -44,13 +41,15 @@ p {
         text-align: center;
     }
 
-    .wrap .header {
-        font-size: 2rem;
-        text-align: center;
+    .left {
+        width: 100%;
     }
 
-    .wrap .box-btn button {
-        margin: 1rem auto;
-        
+    .left h1 {
+        font-size: 2rem;
     }
+
+.left button {
+    margin: 1rem auto;
+}
 }

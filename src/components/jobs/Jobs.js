@@ -1,11 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './Jobs.css'
 
 const Jobs = () => {
     return (
-        <div className='jobs'>
+        <div className='jobs submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>
@@ -19,7 +17,7 @@ const Jobs = () => {
                     </Fade>
 
                     <div className='job-link'>
-                        <p>For more information for our Jobs Program, visit <a href='https://www.transitionsfortomorrow.org/'>here</a></p>
+                        <p>For more information for our Jobs Program, visit <a href='https://www.transitionsfortomorrow.org/'>here.</a></p>
                     </div>
                 </div>
             </div>
