@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/palm-springs-rehab/static/css/main.5f4ac495.css",
-    "main.js": "/palm-springs-rehab/static/js/main.255199bf.js",
+    "main.js": "/palm-springs-rehab/static/js/main.3a3e7b41.js",
     "static/media/hero-vbg.mp4": "/palm-springs-rehab/static/media/hero-vbg.f1efe237d8384b832237.mp4",
     "static/media/card2.jpg": "/palm-springs-rehab/static/media/card2.5e75af6ddb3c5df54242.jpg",
     "static/media/footer-bg.webp": "/palm-springs-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
@@ -32,10 +32,10 @@
     "static/media/bluecross.png": "/palm-springs-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/palm-springs-rehab/index.html",
     "main.5f4ac495.css.map": "/palm-springs-rehab/static/css/main.5f4ac495.css.map",
-    "main.255199bf.js.map": "/palm-springs-rehab/static/js/main.255199bf.js.map"
+    "main.3a3e7b41.js.map": "/palm-springs-rehab/static/js/main.3a3e7b41.js.map"
   },
   "entrypoints": [
     "static/css/main.5f4ac495.css",
-    "static/js/main.255199bf.js"
+    "static/js/main.3a3e7b41.js"
   ]
 }
