@@ -12,7 +12,7 @@ const About = () => {
                     <div className="container">
                         <div className="main-menu-content">
                             <Fade top>
-                                <h1>WHO WE ARE</h1>
+                                <h1>WHO WE ARE?</h1>
 
                                 <p>Palm Springs Rehab Treatment Center lets you taper in a safe, structured manner. We use evidence-based medical practices for controlling withdrawal symptoms and watch over you on a 24-7 basis. Our nursing team is adept at administering medications for gradual tapering. And whenever you feel up to it, you also have the chance to participate in therapy and peer support groups to explore the underlying triggers of addiction and associated mental health disorders. </p>
                             </Fade>
