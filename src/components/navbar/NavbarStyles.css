@@ -44,7 +44,7 @@
 }
 
   .menu-item .sub__menus li a {
-    color: #7F669D;
+    color: #353535;
     font-size: 13px;
     padding: -1rem ;
   }
@@ -71,7 +71,7 @@
     width: 220px;
     left: -17px;
     padding: 2px 0 0 0;
-    margin-top: 10px;
+    margin-top: 6px;
     z-index: 1000;
   }
 
