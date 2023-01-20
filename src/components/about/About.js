@@ -27,7 +27,7 @@ const About = () => {
                                     <Fade top>
                                     <p className="container">
                                     <br/>
-                                    Palm Springs Rehab Treatment Center helps you taper in a safe, structured environment We are there for you, through every stage of recovery. No matter where you’re located, you can reach out and get in touch with someone from our staff today.
+                                    Palm Springs Rehab Treatment Center helps you taper in a safe, structured environment. We are there for you, through every stage of recovery. No matter where you’re located, you can reach out and get in touch with someone from our staff today.
                                     </p><br/> <br/>
                                     </Fade>
                                 </div>
