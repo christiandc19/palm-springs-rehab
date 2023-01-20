@@ -23,9 +23,11 @@ const About = () => {
                                 <div className="main-menu-header">
                                 <br/>
                                     <h1>WHO WE ARE</h1>
+                                    <br/>
+                                    <h1 className="alert">No Detox</h1>
 
                                     <Fade top>
-                                    <p className="container">
+                                    <p className="container alert">
                                     <br/>
                                     In many cases, medically supervised detox near Los Angeles is the right starting point for overcoming addiction to alcohol or dependence of prescription drugs or narcotics. Palm Springs Rehab Treatment Center strives to make this step less stressful by focusing on your comfort and safety first. Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery. Detoxing by yourself or going abruptly is often dangerous. 
                                     </p><br/>

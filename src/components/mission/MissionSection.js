@@ -46,7 +46,7 @@ const MissionSection = () => {
                     <Fade bottom>
                     <div className='thumbnail'>
                     <img src={ Work } width="640" height="150" alt="People in Working Uniform" loading="lazy"/>
-                        <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
+                        <p>Employment tools and resources to get you hired.</p>  
                     </div>
                     </Fade>                          
 
