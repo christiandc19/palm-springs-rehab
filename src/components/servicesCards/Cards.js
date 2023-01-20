@@ -15,7 +15,7 @@ const Cards = () => {
     <>
 
             <div className="cards-header container">
-                <h1>WE OFFER VARIOUS SERVICES </h1>
+                <h1> SERVICES WE OFFER</h1>
                 <br/>
                 <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside various treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more.</p>
             </div>
