@@ -46,13 +46,13 @@ const IopSection = () => {
 
 <div className='wrap'>
 
-    <Fade right>
+    <Fade left>
     <div className="box">
         <img src={PhpSection2} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 
-    <Fade left>
+    <Fade right>
     <div className="box box-left">
         <h1 className='header'>LEARN ABOUT OUR OTHER PROGRAMS</h1>
         <br/><br/>

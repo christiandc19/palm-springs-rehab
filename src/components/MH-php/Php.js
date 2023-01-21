@@ -11,9 +11,9 @@ const Php = () => {
                     <h1>Mental Health - Partial Hospitalization Prorgam (PHP)</h1>
                     </Fade>
                     <Fade bottom>
-                    <p>Addiction can take a heavy toll on your life. It can disrupt your eating and sleeping patterns, stealing your health from you. They can cause you to do things that you would never have expected, such as lying about your substance use or stealing to fund your dependence. As a result of these actions, you may fear that you have permanently damaged your relationships with your loved ones. In such cases, you may feel that you have gone so far, done so many things, that it is impossible to go back.
+                    <p>Your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.
                     <br /><br/>
-                    Fortunately, our treatment programs give you the path to healing/recovery. Through our PHP program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today. </p>
+                    At Palm Springs Rehab Treatment Center, we offer several levels of care to help you navigate recovery. Take part in one of our Partial Hospitalization Program (PHP). We will listen to you, assess your situation, and help you craft a treatment approach that works for you.</p>
                     </Fade>
                 <div>
                 <Link to="/treatment">
