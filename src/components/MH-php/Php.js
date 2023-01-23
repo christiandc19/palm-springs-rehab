@@ -11,9 +11,9 @@ const Php = () => {
                     <h1>Mental Health - Partial Hospitalization Prorgam (PHP)</h1>
                     </Fade>
                     <Fade bottom>
-                    <p>Your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.
+                    <p>Our Partial Hospitalization Program is available every day of the week, whenever you need us. PHP allows you to practice mindfulness, prioritize self-care, and heal your mind with an immersive treatment program rooted in supervision and personalized guidance.
                     <br /><br/>
-                    At Palm Springs Rehab Treatment Center, we offer several levels of care to help you navigate recovery. Take part in one of our Partial Hospitalization Program (PHP). We will listen to you, assess your situation, and help you craft a treatment approach that works for you.</p>
+                    Put your mental health first and take part in structured one-on-one sessions with an experienced counselor. Then, continue your recovery by spending time interacting with our community under the supervision of our experienced staff.</p>
                     </Fade>
                 <div>
                 <Link to="/treatment">
