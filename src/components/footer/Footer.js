@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="100px" height="70px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -33,9 +33,6 @@ const Footer = () => {
                         <Link to='/about-us'><p>About Us</p></Link>
                         </LinkRoll>
 
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
 
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -66,7 +63,7 @@ const Footer = () => {
 
 
                     <div className="col">
-                        <h3>SUBSTANCE ABUSE</h3>
+                        <h3>SUBSTANCE ABUSE PROGRAMS</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
                         </LinkRoll>
@@ -86,7 +83,7 @@ const Footer = () => {
 
 
                     <div className="col">
-                        <h3>MENTAL HEALTH</h3>
+                        <h3>MENTAL HEALTH PROGRAMS</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mental-health-php'><p>Partial Hospitalization Program</p></Link>
                         </LinkRoll>
@@ -99,6 +96,8 @@ const Footer = () => {
                         <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
                     </div>
+
+                    <p className='copyright'><p>&copy; 2023 palmsprings.com</p></p>
 
 
                     {/* <form>

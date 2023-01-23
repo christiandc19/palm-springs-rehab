@@ -88,15 +88,15 @@ const PhpSection = () => {
                 </LinkRoll>
                 <br />
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-php'><p className='prog-link'>MENTAL HELATH - PHP</p></Link>
+                        <Link to='/mental-health-php'><p className='prog-link'>MENTAL HEALTH - PHP</p></Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-iop'><p className='prog-link'>MENTAL HELATH - IOP</p></Link>
+                        <Link to='/mental-health-iop'><p className='prog-link'>MENTAL HEALTH - IOP</p></Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-op'><p className='prog-link'>MENTAL HELATH - OP</p></Link>
+                        <Link to='/mental-health-op'><p className='prog-link'>MENTAL HEALTH - OP</p></Link>
                 </LinkRoll>
 
         <br />

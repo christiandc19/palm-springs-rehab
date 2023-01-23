@@ -277,6 +277,7 @@ margin: 0px 5px;
 
   .prog-link {
     color: var(--primary-color);
+    font-size: 12px;
   }
 
   .prog-link:hover {
@@ -303,9 +304,9 @@ margin: 0px 5px;
     }
 }
 
-.job-link a {
+    .job-link a {
     color: rgb(72, 214, 103);
-}
+  }
 
 @media screen and (max-width:375px) {
   .box img {

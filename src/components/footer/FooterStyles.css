@@ -21,11 +21,6 @@
     justify-content: center;
 }
 
-/* .logo-footer img{
-    width: 30%;
-} */
-
-
 .footer .top {
     width: 100%;
     padding: 1rem;
@@ -111,6 +106,10 @@
     font-size: 3rem;
 }
 
+
+.copyright p{
+    color: black;
+}
 
 @media screen and (max-width: 940px) {
     .footer {
