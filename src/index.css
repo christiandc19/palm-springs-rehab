@@ -112,7 +112,6 @@ margin: 0px 5px;
 .about {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .3);
   position: relative;
 }
 
@@ -128,7 +127,6 @@ margin: 0px 5px;
 .mission {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .3);
   position: relative;
 }
 
@@ -145,7 +143,6 @@ margin: 0px 5px;
   width: 100%;
   height: 80vh;
   position: relative;
-  background: rgba(0, 0, 0, .3);
   margin-bottom: 1rem;
 }
 
@@ -162,7 +159,6 @@ margin: 0px 5px;
   width: 100%;
   height: 80vh;
   position: relative;
-  background: rgba(0, 0, 0, .3);
 }
 
 .contact-hero:before {
@@ -179,8 +175,6 @@ margin: 0px 5px;
   width: 100%;
   height: 80vh;
   position: relative;
-  background: rgba(0, 0, 0, .3);
-
 }
 
 .treatment:before {
@@ -198,7 +192,6 @@ margin: 0px 5px;
 .iop {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .3);
   position: relative;
 }
 
@@ -214,7 +207,6 @@ margin: 0px 5px;
 .php {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .3);
   position: relative;
 }
 
@@ -327,12 +319,12 @@ margin: 0px 5px;
   text-align: left;
   font-size: 2rem;
   padding: 10px 0;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 
 .main-menu p {
-  color: white;
+  color: var(--primary-color);
   margin: auto;
   text-align: justify;
   font-size: 16px;

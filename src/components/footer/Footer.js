@@ -52,9 +52,9 @@ const Footer = () => {
                         <Link to='/about-us'><p>About Us</p></Link>
                         </LinkRoll>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll>
+                        </LinkRoll> */}
 
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
