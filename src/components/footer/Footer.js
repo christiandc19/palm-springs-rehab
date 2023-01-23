@@ -95,10 +95,6 @@ const Footer = () => {
                         <Link to='/mental-health-iop'><p>Intensive Outpatient Program</p></Link>
                         </LinkRoll>
 
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
-
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
