@@ -97,9 +97,6 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-                    <p className='copyright'><p>&copy; 2023 palmsprings.com</p></p>
-
-
                     {/* <form>
                         <h3>Join Our Team</h3>
                         <input type="email" placeholder='Enter your email' />
@@ -113,7 +110,11 @@ const Footer = () => {
                         </div>
                     </form> */}
                 </div>
+                <p className='copyright'><p>&copy; 2023 palmsprings.com</p></p>
+
+
             </div>
+
         </div>
     )
 }
