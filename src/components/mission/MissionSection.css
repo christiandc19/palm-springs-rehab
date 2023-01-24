@@ -27,14 +27,15 @@
 
 .thumbnail img {
     margin: 5px;
-    width: 200px;
+    /* width: 200px; */
     padding: 5px;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
 }
 
 .thumbnail p {
-    width: 220px;
+    width: 320px;
+    text-align: center;
 }
 
 .mission-section button {
