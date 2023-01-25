@@ -110,7 +110,7 @@ const Footer = () => {
                         </div>
                     </form> */}
                 </div>
-                <p className='copyright'><p>&copy; 2023 palmsprings.com</p></p>
+                <p className='copyright'><p>&copy; 2023 Palm Springs Treatment Center. All rights reserved</p></p>
 
 
             </div>

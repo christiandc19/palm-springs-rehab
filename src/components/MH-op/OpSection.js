@@ -82,7 +82,7 @@ const OpSection = () => {
         <p>
         At  Palm Springs Rehab Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
-        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mental-health-iop'><p className='prog-link'>MENTAL HEALTH - IOP</p></Link>
                 </LinkRoll>
 
