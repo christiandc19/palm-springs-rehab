@@ -28,37 +28,35 @@ const ContactForm = () => {
 
     return (
         <>
-        <div className="contactForm-mainContainer">
-            <div className='contactForm'>
-                <div className="map">
-                    <div className="location">
-                        <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224 </a></p><br /> 
-                        {/* <p><AiOutlineMail /> info@domainName.com  </p><br /> */}
-                        <p><BsFillPinMapFill /> 68487 E Palm Canyon Dr, STE 44, Cathedral City CA 92234 </p><br />
-                        <p className="admission">Please call our admission department if you have any questions.</p>
-                    </div>
 
-                    <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=68487%20E%20Palm%20Canyon%20Dr,%20Cathedral%20City%20CA%2092234+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
-                    </div>
-                </div>
-
-                <div className="container contact-container">
-                    <form ref={form} onSubmit={sendEmail}>
-                        <h1>SEND A MESSAGE</h1>
-                        <input className="user-input" type="text" name='name' placeholder='Your Name' required />
-                        <input className="user-input" type="text" name='email' placeholder='Your Email' required />
-                        <input className="user-input" type="tel" name='phone' placeholder='Your Phone' required />
-                        <input className="user-input" type="text" name='subject' placeholder='Subject' required />
-                        <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea>
-                        <div className="submit-btn">
-                            <button type='submit' className="btn-modal btn btn-primary">Send</button>
-                        </div>
-                    </form>
-                </div>
+<section class="footer_get_touch_outer">
+<div className='contact-section-left'>
+      <div class="footer_get_touch_inner">
+        <div class="colmun-70 get_form">
+          <div class="get_form_inner">
+            <div class="get_form_inner_text">
+              <h3>Get In Touch</h3>
             </div>
+            <form ref={form} onSubmit={sendEmail}>
+              <div class="inputs">
+                <input type="text" name='name' placeholder='Your Name' required /> <br/>
+                <input type="text" name='email' placeholder='Your Email' required /> <br/>
+                <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
+                <input type="text" name='subject' placeholder='Subject' required /> <br/>
+
+              </div>
+              <div>
+                <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+        </div>
     </div>
+</div>
+</div>
+</section>
+    
+
         </>
     )
 }
