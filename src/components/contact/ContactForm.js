@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import { BsFillPinMapFill } from 'react-icons/bs';
-import { AiOutlinePhone } from 'react-icons/ai';
+// import { BsFillPinMapFill } from 'react-icons/bs';
+// import { AiOutlinePhone } from 'react-icons/ai';
 // import { AiOutlineMail } from 'react-icons/ai';
 
 
@@ -29,7 +29,7 @@ const ContactForm = () => {
     return (
         <>
 
-<section class="footer_get_touch_outer">
+<section className="container">
 <div className='contact-section-left'>
       <div class="footer_get_touch_inner">
         <div class="colmun-70 get_form">
@@ -56,6 +56,31 @@ const ContactForm = () => {
 </div>
 </section>
     
+
+{/* 
+<div className="contact-cards container">
+
+    <div id="container">  
+        <div id="imageContainer"></div>
+        <center><h2>CALL US</h2></center>
+        <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224</a></p><br /> 
+    </div>
+
+    <div id="container">  
+        <div id="imageContainer"></div>
+        <center><h2>EMAIL</h2></center>
+        <p><AiOutlineMail /> info@domainName.com  </p><br />
+    </div>
+
+
+    <div id="container">  
+        <div id="imageContainer"></div>
+        <center><h2>LOCATION</h2></center>
+        <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p><br />
+    </div>
+
+</div> */}
+
 
         </>
     )

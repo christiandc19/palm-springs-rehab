@@ -1,20 +1,12 @@
 
-  .footer_get_touch_outer {
-    margin: 80px;
-  }
-
-  .container {
-    width: 95%;
-    max-width: 1140px;
-    margin: auto;
-  }
 
 
   .get_form_inner {
     display: block;
-    padding: 50px 40px;
+    padding: 3rem 3rem;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
+    margin: 2rem 5rem;
   }
 
 input {
@@ -76,12 +68,65 @@ input {
 
 
 
+  @media screen and (max-width: 940px) {
+    .get_form_inner {
+        margin: 2rem 1rem;
+      }
+    }
+  
 
+/* 
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-
-
-
+  
+#container {
+    width: 350px;
+    height: 150px;
+    background: rgba(74, 127, 206, 0.884);
+    margin: 20px auto;
+    border-radius: 85px 0px 85px 0px;
+    -webkit-border-radius: 85px 0px 85px 0px;
+    -moz-border-radius: 85px 0px 85px 0px;
+    -o-border-radius: 85px 0px 85px 0px;
+    -ms-border-radius: 85px 0px 85px 0px;
+    box-shadow: 1px 2px 15px rgba(0,0,0,.1), 0px 1px 8px rgba(0,0,0,.5);
+     border-bottom: 5px solid rgba(0,0,0,0.5);
+    }
+    
+    #container #imageContainer {
+    width: 130px;
+    height: 120px;
+    border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    -webkit-border-radius: 80px;
+      
+    border: 20px solid rgba(0,0,0,.2);
+    box-shadow: inset 0px 1px 15px rgba(0,0,0,.9);
+    -webkit-box-shadow: inset 0px 1px 15px rgba(0,0,0,.9);
+    -moz-box-shadow: inset 0px 1px 15px rgba(0,0,0,.9);
+    -ms-box-shadow: inset 0px 1px 15px rgba(0,0,0,.9);
+    -o-box-shadow: inset 0px 1px 15px rgba(0,0,0,.9);
+    background: rgba(0,0,0,.2);
+    float: right;
+    margin: 15px;
+    }
+    
+    #container  h2 {
+    color: #ddd;
+    line-height: 85px;
+    text-shadow: -2px -1px rgba(0,0,0,.4);
+    }
+    
+    #container p {
+    color: #ddd;
+    padding: 0 22px;
+    text-shadow: 1px 1px rgba(0,0,0,.3);
+    } */
 
 
 
