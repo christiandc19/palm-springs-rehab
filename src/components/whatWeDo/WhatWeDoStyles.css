@@ -12,6 +12,15 @@
     margin: 1rem;
 }
 
+.box-right {
+    width: 250px;
+}
+
+.box-right2 {
+    width: 250px;
+    display: none;
+}
+
 .wrap .header {
     text-align: center;
     
@@ -29,7 +38,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:940px) {
 
 
     .box img {
@@ -52,4 +61,13 @@ p {
 .left button {
     margin: 1rem auto;
 }
+
+.box-right {
+    display: none;
+}
+
+.box-right2 {
+    display: block;
+}
+
 }

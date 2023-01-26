@@ -97,6 +97,8 @@ const Treatment = () => {
     </Fade>
 </div>
 
+<br />
+<br />
 
 
 <div className='activity-container'>
