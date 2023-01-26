@@ -333,7 +333,7 @@ margin: 0px 5px;
 
 
 .main-menu p {
-  color: var(--primary-color);
+  color: rgb(85, 83, 83);
   margin: auto;
   text-align: justify;
   font-size: 16px;
@@ -389,7 +389,7 @@ margin: 0px 5px;
 }
 
 .submenu p {
-  color: var(--primary-color);
+  color: rgb(85, 83, 83);
   text-align: justify;
 }
 
