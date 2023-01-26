@@ -74,7 +74,6 @@ const ContactForm = () => {
             <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p>
     </div>
 
-
 </div>
     
         </>
