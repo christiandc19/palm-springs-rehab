@@ -53,6 +53,10 @@
     text-align: justify;
 }
 
+.title {
+    text-align: center;
+}
+
 .revisions h1, .recreations h1 {
     text-align: center;
 }

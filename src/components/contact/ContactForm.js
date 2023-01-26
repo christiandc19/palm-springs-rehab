@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-// import { BsFillPinMapFill } from 'react-icons/bs';
-// import { AiOutlinePhone } from 'react-icons/ai';
-// import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPinMapFill } from 'react-icons/bs';
+import { AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 
 
 import './ContactForm.css';
@@ -30,7 +30,7 @@ const ContactForm = () => {
         <>
 
 <section className="container">
-<div className='contact-section-left'>
+<div>
       <div class="footer_get_touch_inner">
         <div class="colmun-70 get_form">
           <div class="get_form_inner">
@@ -55,33 +55,28 @@ const ContactForm = () => {
 </div>
 </div>
 </section>
+
+
+<div className="contact-cards-container">
     
-
-{/* 
-<div className="contact-cards container">
-
-    <div id="container">  
-        <div id="imageContainer"></div>
-        <center><h2>CALL US</h2></center>
-        <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224</a></p><br /> 
+    <div class="get_form_inner2">
+            <h2>CALL US</h2>
+            <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224</a></p>
     </div>
 
-    <div id="container">  
-        <div id="imageContainer"></div>
-        <center><h2>EMAIL</h2></center>
-        <p><AiOutlineMail /> info@domainName.com  </p><br />
+    <div class="get_form_inner2">
+            <h2>EMAIL</h2>
+            <p><AiOutlineMail /> info@domainName.com  </p><br />
+    </div>
+
+    <div class="get_form_inner2">
+            <h2>LOCATION</h2>
+            <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p>
     </div>
 
 
-    <div id="container">  
-        <div id="imageContainer"></div>
-        <center><h2>LOCATION</h2></center>
-        <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p><br />
-    </div>
-
-</div> */}
-
-
+</div>
+    
         </>
     )
 }

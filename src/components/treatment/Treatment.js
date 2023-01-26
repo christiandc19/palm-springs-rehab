@@ -75,7 +75,7 @@ const Treatment = () => {
 
     <Fade right>
     <div className="box left">
-    <h1> REVISIONS </h1>                                
+    <h1 className='title'> REVISIONS </h1>                                
 
         <br/>
         <p>
@@ -113,7 +113,7 @@ const Treatment = () => {
 
 
             {/* ------------------------------ RECREATION --------------------------- */}
-            <h1> RECREATIONS </h1>                                
+            <h1 className='title'> RECREATIONS </h1>                                
 
                 <div className='activities'>
                     
