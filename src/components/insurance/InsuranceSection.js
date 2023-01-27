@@ -87,7 +87,9 @@ const InsuranceSection = () => {
 
 
             <div className='team'>
+            <Fade bottom>
                 <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
+            </Fade>
             </div>
 
 
