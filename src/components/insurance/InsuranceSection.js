@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 import Aetna from '../../assets/aetna.png'
@@ -13,6 +12,7 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
+import Team from '../../assets/team.jpg'
 
 
 const InsuranceSection = () => {
@@ -84,6 +84,13 @@ const InsuranceSection = () => {
                             </Fade>
                 </div>
             </div>
+
+
+            <div className='team'>
+                <img src={Team} width="400px" height="250px" alt="Company Team" loading="lazy" />
+            </div>
+
+
 
         </div>
         </>
