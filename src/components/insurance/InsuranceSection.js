@@ -87,7 +87,7 @@ const InsuranceSection = () => {
 
 
             <div className='team'>
-                <img src={Team} width="400px" height="250px" alt="Company Team" loading="lazy" />
+                <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
             </div>
 
 

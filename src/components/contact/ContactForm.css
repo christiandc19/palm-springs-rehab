@@ -4,7 +4,7 @@
     padding: 3rem 3rem ;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 0rem 5rem 2rem 5rem;
+    margin: 2rem 5rem 2rem 5rem;
   }
 
 input {
@@ -97,7 +97,7 @@ input {
 
   @media screen and (max-width: 940px) {
     .get_form_inner {
-        margin: 2rem 1rem;
+        margin: 2rem 1rem 2rem 1rem;
       }
     }
   
