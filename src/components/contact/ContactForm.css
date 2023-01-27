@@ -41,16 +41,18 @@ input {
   }
 
   input[type="submit"] {
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    color: #fff;    
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
-    background: transparent;
-    border: 2px solid;
+    /* background: transparent; */
+    /* border: 2px solid; */
     font-weight: 500;
     padding: 10px 20px;
     outline: 0;
     cursor: pointer;
-    color: #103e65;
     transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     -webkit-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     -moz-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -59,13 +61,10 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
     color: #fff;
   }
-
-
-
 
 
   .contact-cards-container {
@@ -95,9 +94,23 @@ input {
     margin: 1rem auto;
     }
 
+    iframe {
+      width: 100%;
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 10px 5px 5px rgb(129, 129, 129);
+
+    }
+
+  
+
   @media screen and (max-width: 940px) {
     .get_form_inner {
         margin: 2rem 1rem 2rem 1rem;
+      }
+
+      iframe {
+        display: none;
       }
     }
   
