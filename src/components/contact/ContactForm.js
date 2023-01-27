@@ -36,6 +36,7 @@ const ContactForm = () => {
           <div class="get_form_inner">
             <div class="get_form_inner_text">
               <h3>Get In Touch</h3>
+              <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
             </div>
             <form ref={form} onSubmit={sendEmail}>
               <div class="inputs">
