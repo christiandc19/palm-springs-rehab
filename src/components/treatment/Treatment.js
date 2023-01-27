@@ -10,7 +10,7 @@ import ContactForm from '../contact/ContactForm';
 
 
 
-import { FaHandPointRight } from 'react-icons/fa';
+import { FaRegStar } from 'react-icons/fa';
 import { RiMovieFill } from 'react-icons/ri';
 import { GiBowlingStrike } from 'react-icons/gi';
 import { FaUmbrellaBeach } from 'react-icons/fa';
@@ -84,13 +84,13 @@ const Treatment = () => {
         <br />
         <ul>
             <li>
-                <FaHandPointRight /> Counselor and client will set clear and tangible goals regarding above      mentioned obstacles.
+            <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above      mentioned obstacles.
             </li><br/>
             <li>
-            <FaHandPointRight /> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
+            <FaRegStar className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
             </li><br/>
             <li>
-            <FaHandPointRight /> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
+            <FaRegStar className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
             </li>
             </ul>
     </div>

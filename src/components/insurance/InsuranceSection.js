@@ -14,9 +14,6 @@ import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
 
-import { Link as LinkRoll } from 'react-scroll'
-
-
 
 const InsuranceSection = () => {
     return (
@@ -87,14 +84,6 @@ const InsuranceSection = () => {
                             </Fade>
                 </div>
             </div>
-
-            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/insurance">
-                    <div className='insuranceSection-btn'>
-                        <button>Learn More</button>
-                    </div>
-                </Link>
-            </LinkRoll>
 
         </div>
         </>
