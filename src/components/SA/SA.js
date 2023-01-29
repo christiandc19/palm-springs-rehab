@@ -9,7 +9,7 @@ const SA = () => {
         <div className='sa submenu'>
                 <div className="sa-content">
                     <Fade top>
-                    <h2>- Our Services</h2>
+                    <h2>- OUR SERVICES</h2>
                     <h1>SUBSTANCE ABUSE PROGRAMS</h1>
                     </Fade>
                     {/* <Fade bottom>

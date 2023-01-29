@@ -14,9 +14,7 @@ const Contact = () => {
             <Fade top>
                     <h1>HAVE SOME QUESTIONS?</h1>
             </Fade>
-
             <Fade right>
-
                   <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week. </p>
             </Fade>
             </div>

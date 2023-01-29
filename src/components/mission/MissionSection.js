@@ -13,7 +13,7 @@ import Work from '../../assets/employment-assistance.jpg'
 const MissionSection = () => {
     return (
         <>
-        <div className='mission-section'>
+        <div className='mission-section container'>
         <h1>What We Can Provide</h1>
         <p>We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
             <div>
