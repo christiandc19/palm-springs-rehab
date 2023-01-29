@@ -29,25 +29,23 @@ const Treatment = () => {
             {/* -------------------------------- HERO -------------------------------------- */}
 
             <div className='treatment main-menu'>
-                <div className="container">
-                    <div className="main-menu-content">
+                    <div className="treatment-content">
                         <Fade right>
                             <h1>TREATMENT</h1>
                         </Fade>
-                        <Fade left>
+                        {/* <Fade left>
                             <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and re-assessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
-                        </Fade>
+                        </Fade> */}
                     </div>
                 </div>
-            </div>
 
             {/* -------------------------------- SECTION 1 -------------------------------------- */}
 
 
-    <div className='wrap'>
+    <div className='treatment-wrap'>
     <Fade left>
-    <div className="box left">
-        <h1 className='title'>KEY AREAS/FUNDAMENTALS</h1>
+    <div className="treatment-box treatment-left">
+        <h1 className='treatment-title'>KEY AREAS/FUNDAMENTALS</h1>
         <br/>
         <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
         <br/><br/>
@@ -58,24 +56,24 @@ const Treatment = () => {
     </Fade>
 
     <Fade right>
-    <div className="box">
+    <div className="treatment-box">
         <img src={Service1} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 </div>
 
 
-<div className='wrap'>
+<div className='treatment-wrap'>
     
     <Fade left>
-    <div className="box">
+    <div className="treatment-box">
         <img src={Service2} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 
     <Fade right>
-    <div className="box left">
-    <h1 className='title'> REVISIONS </h1>                                
+    <div className="treatment-box treatment-left">
+    <h1 className='treatment-title'> REVISIONS </h1>                                
 
         <br/>
         <p>
@@ -84,7 +82,7 @@ const Treatment = () => {
         <br />
         <ul>
             <li>
-            <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above      mentioned obstacles.
+            <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
             </li><br/>
             <li>
             <FaRegStar className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
@@ -113,7 +111,7 @@ const Treatment = () => {
 
 
             {/* ------------------------------ RECREATION --------------------------- */}
-            <h1 className='title'> RECREATIONS </h1>                                
+            <h1 className='activity-header'> RECREATIONS </h1>                                
 
                 <div className='activities'>
                     

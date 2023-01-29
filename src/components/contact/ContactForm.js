@@ -32,7 +32,6 @@ const ContactForm = () => {
 <section className="container">
 <div>
       <div class="footer_get_touch_inner">
-        <div class="colmun-70 get_form">
           <div class="get_form_inner">
             <div class="get_form_inner_text">
               <h3>Get In Touch</h3>
@@ -51,7 +50,6 @@ const ContactForm = () => {
                 <input type="submit" value="Submit" />
               </div>
             </form>
-        </div>
     </div>
 </div>
 </div>

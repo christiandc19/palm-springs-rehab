@@ -16,6 +16,17 @@
     margin: 1rem 0;
 }
 
+.mission-section p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.mission-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
 .flex-right {
     display: flex;
     flex-wrap: wrap;
@@ -46,13 +57,17 @@
         width: 100%;
     }
 
-
     .mission-section h1 {
         font-size: 25px;
     }
 
     .mission-section p {
         font-size: 15px;
+    }
+
+    .thumbnail img {
+        width: 250px;
+        height: 150px;
     }
 }
 

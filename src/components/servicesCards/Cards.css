@@ -1,13 +1,13 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .card-wrap
 {
-  margin:50px auto 0 auto;
   width:100%;
   display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items:space-around;
-  max-width:1200px;
+
 }
 
 .tile
@@ -62,6 +62,7 @@
   font-style:italic;
    transform: translateX(200px);
 }
+
 .tile p
 {
   font-weight:300;
@@ -109,13 +110,23 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .cards-header h1 {
     margin: 2rem auto;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 1000px) {
-  .card-wrap {
-   flex-direction: column;
-    width:400px;
+.cards-header p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+  @media (max-width: 940px) {
+    .card-wrap {
+      width: 100%;
+    }
+  
+    .tile { 
+      width: 350px;
+      height:330px;
+    }
+  
   }
-}
+
 

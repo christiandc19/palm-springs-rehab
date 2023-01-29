@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .wrap {
   display: flex;
   flex-wrap: wrap ;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 5rem 0 0 0;
 }
 
@@ -23,18 +25,22 @@
 
 .wrap .header {
     text-align: center;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .box img {
     border-radius: 10px;
 }
 
-p {
+.wrap p {
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
-
+.box-btn {
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 
@@ -45,7 +51,7 @@ p {
         display: none;
     }
 
-    p {
+    .wrap p {
         font-size: 14px;
         text-align: center;
     }

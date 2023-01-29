@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .InsuranceSection {
     width: 100%;
     position: relative;
@@ -17,10 +19,12 @@
 
 .InsuranceSection-container p {
         padding: 1rem 0;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .InsuranceSection h1 {
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .insurance-thumbnail img {

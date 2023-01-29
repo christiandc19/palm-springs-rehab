@@ -16,7 +16,7 @@ const MHSection = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>WE OFFER VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <h1>PALM SPRINGS REHAB OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
                 <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 

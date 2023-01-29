@@ -15,12 +15,12 @@ const MHSection = () => {
   return (
     <>
 
-<div className="cards-header container">
-                <h1>WE OFFER VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>
+<div className="sa-cards-header container">
+                <h1>PALM SPRINGS REHAB OFFERS VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>
                 <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
-
-            <div class="sa-card-wrap">
+            
+<div class="sa-card-wrap">
 <div class="sa-tile"> 
   <Fade left>
   <img src={Card1} alt="Mental Health" loading="lazy"/>
@@ -30,7 +30,7 @@ const MHSection = () => {
   <p class="sa-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
     <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health-php">
+        <Link to="/substance-abuse-php">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
@@ -47,7 +47,7 @@ const MHSection = () => {
   <p class="sa-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
   <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health-iop">
+        <Link to="/substance-abuse-iop">
             <button>Learn More</button>
         </Link>
     </LinkRoll>

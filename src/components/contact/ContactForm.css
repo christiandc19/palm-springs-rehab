@@ -40,6 +40,10 @@ input {
     font-weight: 600;
   }
 
+  .get_form_inner_text p {
+    text-align: left;
+  }
+
   input[type="submit"] {
     background-color: var(--primary-color);
     border: var(--primary-color);
