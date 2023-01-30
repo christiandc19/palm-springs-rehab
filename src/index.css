@@ -330,10 +330,11 @@ margin: 0px 5px;
   display: block;
   width: calc(100% + 1.3px);
   height: 143px;
+  position: fixed;
 }
 
 .hero-divider .shape-fill {
-  fill: #ffffff;
+  fill: #860a0a;
 }
 
 @media screen and (max-width: 940px) {

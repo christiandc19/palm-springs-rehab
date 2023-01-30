@@ -8,6 +8,7 @@ import Service2 from '../../assets/treatment-2.jpg'
 
 import ContactForm from '../contact/ContactForm';
 
+import Wave from '../../assets/waves.svg'
 
 
 import { FaRegStar } from 'react-icons/fa';
@@ -28,6 +29,10 @@ const Treatment = () => {
     return (
         <>
 
+
+<div className='hero-divider'>
+<img src={Wave} loading="lazy" />
+</div>
 
 
             {/* -------------------------------- HERO -------------------------------------- */}
