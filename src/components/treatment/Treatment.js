@@ -26,6 +26,8 @@ const Treatment = () => {
     return (
         <>
 
+
+
             {/* -------------------------------- HERO -------------------------------------- */}
 
             <div className='treatment main-menu'>

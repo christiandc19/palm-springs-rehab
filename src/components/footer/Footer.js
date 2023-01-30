@@ -9,6 +9,8 @@ import { Link as LinkRoll } from 'react-scroll'
 
 const Footer = () => {
     return (
+
+<>
         <div className='footer'>
             <div className="container">
                 <div className="top">
@@ -116,6 +118,7 @@ const Footer = () => {
             </div>
 
         </div>
+</>
     )
 }
 

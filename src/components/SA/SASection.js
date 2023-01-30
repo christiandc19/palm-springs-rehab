@@ -9,11 +9,17 @@ import Contact2 from '../contact/Contact2'
 import Card1 from '../../assets/sa-card1.jpg'
 import Card2 from '../../assets/sa-card2.jpg'
 import Card3 from '../../assets/sa-card3.jpg'
+import Waves from '../../assets/waves.svg'
 
 
 const MHSection = () => {
   return (
     <>
+
+<div class="hero-divider">
+  <img src={Waves} alt="Divider" loading="lazy"/>
+</div>
+
 
 <div className="sa-cards-header container">
                 <h1>PALM SPRINGS REHAB OFFERS VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
 .sa-card-wrap
 {
   width:100%;
@@ -13,7 +12,7 @@
 .sa-tile
 {
   width:400px;
-  height:230px;
+  height:250px;
   margin:10px;
   /* background-color:#444549; */
   display:inline-block;

@@ -324,3 +324,27 @@ margin: 0px 5px;
 }
 
 
+/* Wave Divider - SA and MH Hero Image */
+
+.hero-divider {
+  position: absolute;
+  bottom: 10.8rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 9999;
+}
+
+.hero-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 143px;
+}
+
+.hero-divider .shape-fill {
+  fill: #ffffff;
+}
+
