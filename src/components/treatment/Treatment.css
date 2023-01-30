@@ -26,6 +26,14 @@
     padding: 1rem;
 }
 
+.treatment-title h1 {
+    padding: 2rem 0 0 0;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+
 .treatment h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
@@ -40,13 +48,18 @@
     font-size: 3rem;
     text-align: center;
 }
+
+.treatment-title h1 {
+    font-size: 1.5rem;
+}
+
+
 }
 
 .treatment-wrap {
     display: flex;
     flex-wrap: wrap ;
     justify-content: space-evenly;
-    margin: 2rem 0;
   }
   
   .treatment-box {

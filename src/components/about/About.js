@@ -5,12 +5,19 @@ import ContactForm from "../contact/ContactForm";
 import './About.css'
 import AboutSection from "./AboutSection";
 
+import Waves from '../../assets/waves.svg'
+
 
 
 const About = () => {
 
     return (
             <>
+
+<div class="hero-divider">
+  <img src={Waves} alt="Divider" loading="lazy"/>
+</div>
+
             <div className='about main-menu'>
                         <div className="about-content">
                             <Fade top>

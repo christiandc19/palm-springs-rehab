@@ -22,11 +22,16 @@ import { FaHiking } from 'react-icons/fa';
 import { MdPool } from 'react-icons/md';
 import { MdVolunteerActivism } from 'react-icons/md';
 
+import Waves from '../../assets/waves.svg'
+
+
 const Treatment = () => {
     return (
         <>
 
-
+<div class="hero-divider">
+  <img src={Waves} alt="Divider" loading="lazy"/>
+</div>
 
             {/* -------------------------------- HERO -------------------------------------- */}
 
@@ -43,11 +48,13 @@ const Treatment = () => {
 
             {/* -------------------------------- SECTION 1 -------------------------------------- */}
 
+<div className='treatment-title'>
+<h1>KEY AREAS/FUNDAMENTALS</h1>
+</div>
 
     <div className='treatment-wrap'>
-    <Fade left>
+
     <div className="treatment-box treatment-left">
-        <h1 className='treatment-title'>KEY AREAS/FUNDAMENTALS</h1>
         <br/>
         <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
         <br/><br/>
@@ -55,28 +62,23 @@ const Treatment = () => {
         </p>
         <br />
     </div>
-    </Fade>
 
-    <Fade right>
     <div className="treatment-box">
         <img src={Service1} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
-    </Fade>
 </div>
 
-
+<div className='treatment-title'>
+<h1>REVISIONS</h1>
+</div>
 <div className='treatment-wrap'>
     
-    <Fade left>
     <div className="treatment-box">
         <img src={Service2} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
-    </Fade>
 
-    <Fade right>
+
     <div className="treatment-box treatment-left">
-    <h1 className='treatment-title'> REVISIONS </h1>                                
-
         <br/>
         <p>
         Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc. 
@@ -94,7 +96,6 @@ const Treatment = () => {
             </li>
             </ul>
     </div>
-    </Fade>
 </div>
 
 <br />

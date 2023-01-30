@@ -22,9 +22,11 @@
 }
 
 .about-section h1 {
-    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 0;
+    font-size: 2rem;
     text-align: center;
-    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
 }
 
 
