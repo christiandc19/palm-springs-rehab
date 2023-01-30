@@ -41,10 +41,6 @@ const IopSection = () => {
     </Fade>
 </div>
     
-
-
-    
-
 <Contact2 />
 
     </>

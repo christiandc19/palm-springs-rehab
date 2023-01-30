@@ -12,7 +12,7 @@
 .sa-tile
 {
   width:400px;
-  height:250px;
+  height:270px;
   margin:10px;
   /* background-color:#444549; */
   display:inline-block;
@@ -48,7 +48,7 @@
   height:calc(100% - 60px);
 }
 
-.sa-tile h1
+.sa-tile h1, .sa-tile h5
 {
   color: rgb(255, 255, 255);
   font-weight:300;
@@ -63,6 +63,8 @@
   font-style:italic;
    transform: translateX(200px);
 }
+
+
 
 .sa-tile p
 {
