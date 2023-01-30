@@ -6,7 +6,6 @@ import './Hero.css'
 import BgVideo from '../../assets/hero-vbg.mp4'
 import HeroLogo from '../../assets/nav-logo.png'
 
-import Wave from '../../assets/waves.svg'
 
 
 
@@ -20,14 +19,10 @@ const Hero = () => {
 
 
 
-             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg'>
-             
-             <div className='home-hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x/>
-            </div>
-             </video>
 
-
+            <div className='video-container'>
+             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg'/>
+             </div>
 
             <div className="hero-container">
                 <div className="content">
@@ -48,8 +43,12 @@ const Hero = () => {
                         <button>Learn More</button>
                     </Link>
                     </div>
+
+
                 </div>
             </div>
+
+
         </div>
 </>
 

@@ -10,7 +10,7 @@ const MH = () => {
         <>
         <div className='mh submenu'>
         <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x/>
+                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="mh-content">
                     <Fade top>

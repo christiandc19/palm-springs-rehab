@@ -15,11 +15,11 @@ import Card3 from '../../assets/card3.jpg'
 const Cards = () => {
   return (
     <>
+
             <div className="cards-header container">
                 <h1>WE OFFER VARIOUS SERVICES </h1>
                 <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
-
 <div class="card-wrap">
 <div class="tile"> 
   <Fade left>

@@ -18,7 +18,7 @@ const About = () => {
 
             <div className='about main-menu'>
             <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x/>
+                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                         <div className="about-content">
                             <Fade top>

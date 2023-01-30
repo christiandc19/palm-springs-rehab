@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p>
+            <p><BsFillPinMapFill /> 68487 E Palm Canyon Dr, STE 44, Cathedral City CA 92234 </p>
     </div>
 
 </div>

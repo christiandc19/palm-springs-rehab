@@ -10,7 +10,7 @@ const SA = () => {
     return (
         <div className='sa submenu'>
             <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x/>
+                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="sa-content">
                     <Fade top>
