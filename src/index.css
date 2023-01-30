@@ -315,8 +315,10 @@ margin: 0px 5px;
 /* Wave Divider - SA and MH Hero Image */
 
 .hero-divider {
+  width: 100%;
+
   position: absolute;
-  bottom: 10.8rem;
+  bottom: -0.1rem;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -327,15 +329,13 @@ margin: 0px 5px;
 
 .hero-divider svg {
   position: relative;
+  width: 100%;
   display: block;
   width: calc(100% + 1.3px);
   height: 143px;
   position: fixed;
 }
 
-.hero-divider .shape-fill {
-  fill: #860a0a;
-}
 
 @media screen and (max-width: 940px) {
 

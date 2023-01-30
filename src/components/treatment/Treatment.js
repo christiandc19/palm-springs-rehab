@@ -29,15 +29,18 @@ const Treatment = () => {
     return (
         <>
 
-
+{/* 
 <div className='hero-divider'>
-<img src={Wave} loading="lazy" />
-</div>
+<img src={Wave} loading="lazy" repeat-x/>
+</div> */}
 
 
             {/* -------------------------------- HERO -------------------------------------- */}
 
-            <div className='treatment main-menu'>
+        <div className='treatment main-menu'>
+            <div className='hero-divider'>
+                <img src={Wave} loading="lazy" repeat-x/>
+            </div>
                     <div className="treatment-content">
                         <Fade right>
                             <h1>TREATMENT</h1>
