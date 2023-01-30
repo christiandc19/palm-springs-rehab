@@ -9,7 +9,7 @@ const IOP = () => {
         <div className='iop submenu'>
                 <div className="iop-content">
                     <Fade top>
-                    <h2>- Mental Health</h2>
+                    <h2>- MENTAL HEALTH</h2>
                     <h1>Intensive Outpatient Program</h1>
                     </Fade>
                 </div>

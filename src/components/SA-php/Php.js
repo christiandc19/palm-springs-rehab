@@ -9,7 +9,7 @@ const PHP = () => {
         <div className='php submenu'>
                 <div className="php-content">
                     <Fade top>
-                    <h2>- Substance Abuse</h2>
+                    <h2>- SUBSTANCE ABUSE</h2>
                     <h1>Partial Hospitalization Program</h1>
                     </Fade>
                 </div>
