@@ -3,15 +3,11 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import './Mission.css'
-import Waves from '../../assets/waves.svg'
 
 const Mission = () => {
     return (
 
 <>
-<div class="hero-divider">
-  <img src={Waves} alt="Divider" loading="lazy"/>
-</div>
 
         <div className='mission main-menu'>
                 <div className="mission-content">

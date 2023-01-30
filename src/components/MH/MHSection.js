@@ -9,16 +9,11 @@ import Contact2 from '../contact/Contact2'
 import Card1 from '../../assets/mh-card1.jpg'
 import Card2 from '../../assets/mh-card2.jpg'
 import Card3 from '../../assets/mh-card3.jpg'
-import Waves from '../../assets/waves.svg'
 
 
 const MHSection = () => {
   return (
     <>
-
-<div class="hero-divider">
-  <img src={Waves} alt="Divider" loading="lazy"/>
-</div>
 
 <div className="mh-cards-header container">
                 <h1>PALM SPRINGS REHAB OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>

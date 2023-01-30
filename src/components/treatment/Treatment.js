@@ -22,16 +22,13 @@ import { FaHiking } from 'react-icons/fa';
 import { MdPool } from 'react-icons/md';
 import { MdVolunteerActivism } from 'react-icons/md';
 
-import Waves from '../../assets/waves.svg'
 
 
 const Treatment = () => {
     return (
         <>
 
-<div class="hero-divider">
-  <img src={Waves} alt="Divider" loading="lazy"/>
-</div>
+
 
             {/* -------------------------------- HERO -------------------------------------- */}
 
