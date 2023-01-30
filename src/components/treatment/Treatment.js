@@ -63,7 +63,7 @@ const Treatment = () => {
         <br />
     </div>
 
-    <div className="treatment-box">
+    <div className="treatment-box box">
         <img src={Service1} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
 </div>
@@ -73,7 +73,7 @@ const Treatment = () => {
 </div>
 <div className='treatment-wrap'>
     
-    <div className="treatment-box">
+    <div className="treatment-box box">
         <img src={Service2} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
 

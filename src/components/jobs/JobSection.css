@@ -1,10 +1,13 @@
-.about-section {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.job-section {
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
 
-.about-section .content {
+.job-section .content {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -12,7 +15,7 @@
     padding: 1rem;
 }
 
-.about-section p {
+.job-section p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -21,7 +24,7 @@
     line-height: 20px;
 }
 
-.about-section h1 {
+.job-section h1 {
     padding: 2rem 0;
     font-size: 2rem;
     text-align: center;
@@ -32,15 +35,15 @@
 
 
 @media screen and (max-width: 940px) {
-    .about-section {
+    .job-section {
         width: 100%;
     }
 
-    .about-section h1 {
+    .job-section h1 {
         font-size: 25px;
     }
 
-    .about-section p {
+    .job-section p {
         font-size: 15px;
     }
 }

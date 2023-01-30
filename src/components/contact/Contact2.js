@@ -29,7 +29,7 @@ const ContactForm = () => {
 
 
     <div className="contact2-header contact2-container">
-        <h1>Do You Need Urgent Help? </h1>
+        <h1>DO YOU NEED URGENT HELP?</h1>
         <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
@@ -61,7 +61,7 @@ const ContactForm = () => {
       </div>
 
       <div class="right-side">
-        <div class="topic-text">SEND US A MESSAGE</div> <br/>
+        <div class="topic-text">Send us a message</div> <br/>
         <p className="topic-text-p">Please call our admission department if you have any questions.</p>
       <form ref={form} onSubmit={sendEmail}>
         <div class="input-box">
