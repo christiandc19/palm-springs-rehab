@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/palm-springs-rehab/static/css/main.f230e4ef.css",
-    "main.js": "/palm-springs-rehab/static/js/main.01f2dba5.js",
+    "main.css": "/palm-springs-rehab/static/css/main.b2945b55.css",
+    "main.js": "/palm-springs-rehab/static/js/main.e3dd205d.js",
     "static/media/hero-vbg.mp4": "/palm-springs-rehab/static/media/hero-vbg.f1efe237d8384b832237.mp4",
     "static/media/whatwedo.png": "/palm-springs-rehab/static/media/whatwedo.2a09926edefc60663dea.png",
     "static/media/whatwedo2.png": "/palm-springs-rehab/static/media/whatwedo2.960c76ca1d89af0acc4c.png",
@@ -9,9 +9,9 @@
     "static/media/sa-submenu-bg.jpg": "/palm-springs-rehab/static/media/sa-submenu-bg.5d1614d4cb6f11156dd1.jpg",
     "static/media/menu-bg-mission.jpg": "/palm-springs-rehab/static/media/menu-bg-mission.2622a06134fb08274d7b.jpg",
     "static/media/menu-bg-treatment.jpg": "/palm-springs-rehab/static/media/menu-bg-treatment.21b3c9deb3ba6282c762.jpg",
-    "static/media/menu-bg-insurance.jpg": "/palm-springs-rehab/static/media/menu-bg-insurance.99f844edd0c099ab7d23.jpg",
     "static/media/employment-assistance.jpg": "/palm-springs-rehab/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
     "static/media/card3.jpg": "/palm-springs-rehab/static/media/card3.cf6c72c259552505da57.jpg",
+    "static/media/menu-bg-insurance.jpg": "/palm-springs-rehab/static/media/menu-bg-insurance.95c30f861e6c14eebb6d.jpg",
     "static/media/card1.jpg": "/palm-springs-rehab/static/media/card1.67a6f041dd030244deee.jpg",
     "static/media/menu-bg-contact.jpg": "/palm-springs-rehab/static/media/menu-bg-contact.09bd03f95e8ad26cc3d5.jpg",
     "static/media/menu-bg-about.jpg": "/palm-springs-rehab/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
@@ -45,11 +45,12 @@
     "static/media/aetna.png": "/palm-springs-rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/palm-springs-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/palm-springs-rehab/index.html",
-    "main.f230e4ef.css.map": "/palm-springs-rehab/static/css/main.f230e4ef.css.map",
-    "main.01f2dba5.js.map": "/palm-springs-rehab/static/js/main.01f2dba5.js.map"
+    "static/media/waves.svg": "/palm-springs-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
+    "main.b2945b55.css.map": "/palm-springs-rehab/static/css/main.b2945b55.css.map",
+    "main.e3dd205d.js.map": "/palm-springs-rehab/static/js/main.e3dd205d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f230e4ef.css",
-    "static/js/main.01f2dba5.js"
+    "static/css/main.b2945b55.css",
+    "static/js/main.e3dd205d.js"
   ]
 }
