@@ -2,11 +2,16 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import './MH.css'
+import Wave from '../../assets/waves.svg'
+
 
 const MH = () => {
     return (
         <>
         <div className='mh submenu'>
+        <div className='hero-divider'>
+                <img src={Wave} loading="lazy" repeat-x/>
+            </div>
                 <div className="mh-content">
                     <Fade top>
                     <h2>- OUR SERVICES</h2>

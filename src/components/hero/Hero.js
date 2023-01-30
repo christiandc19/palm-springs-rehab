@@ -6,6 +6,7 @@ import './Hero.css'
 import BgVideo from '../../assets/hero-vbg.mp4'
 import HeroLogo from '../../assets/nav-logo.png'
 
+import Wave from '../../assets/waves.svg'
 
 
 
@@ -16,12 +17,20 @@ const Hero = () => {
 
 
         <div className='hero'>
-             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+
+
+
+             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg'>
+             
+             <div className='home-hero-divider'>
+                <img src={Wave} loading="lazy" repeat-x/>
+            </div>
+             </video>
+
+
 
             <div className="hero-container">
                 <div className="content">
-                    
-
                     <div className='hero-logo'>
                     <Fade left>
                     <img src={HeroLogo} width="200px" height="150px" alt="Palm Springs Rehab Logo" loading="lazy"/>
