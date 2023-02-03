@@ -12,9 +12,13 @@
     padding: 1rem;
 }
 
+.about-section {
+    padding: 1rem;
+}
+
 .about-section p {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: justify;
     color: rgb(0, 0, 0);
     margin: 1rem 0;
     font-size: 14px;
@@ -22,11 +26,10 @@
 }
 
 .about-section h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: left;
+      margin: 1rem auto;
+      font-family: 'Montserrat', sans-serif;
 }
 
 

@@ -15,7 +15,12 @@
 }
 
 .box-right {
-    width: 250px;
+    width: 500px;
+    text-align: center;
+}
+
+.box-right img{
+    max-width: auto;
 }
 
 .box-right2 {
