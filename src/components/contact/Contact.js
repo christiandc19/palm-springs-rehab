@@ -14,7 +14,7 @@ const Contact = () => {
 
 <div className='contact-hero main-menu'>
 
-<div className='hero-divider'>
+            <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x/>
             </div>
 

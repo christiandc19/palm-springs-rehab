@@ -14,7 +14,7 @@
   .jobs:before {
     content: '';
     position: absolute;
-    background: url('../../assets/submenu-bg-jobs.jpg') no-repeat center center/cover;
+    background: url('../../assets/submenu-bg-jobs.jpg') no-repeat center top/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
