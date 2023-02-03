@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import BgVideo from '../../assets/hero-vbg.mp4'
+// import BgVideo from '../../assets/hero-vbg.mp4'
 import HeroLogo from '../../assets/nav-logo.png'
 
+import wavesOpacity from '../../assets/wavesOpacity.svg'
 
 
 
@@ -17,48 +18,30 @@ const Hero = () => {
 
         <div className='hero'>
 
-   
-
-
-            <div className='video-container'>
-
-
-
-             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg'/>
-                         
-             </div>
-
-            <div className="hero-container">
-                <div className="content">
-                    <div className='hero-logo'>
-                    <Fade left>
-                    <img src={HeroLogo} width="200px" height="150px" alt="Palm Springs Rehab Logo" loading="lazy"/>
-                    </Fade>
-                    </div>
-
-
-
-                
-                    <Fade bottom>
-                        <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h2>
-                    </Fade>
-                        <p>Find your happiness and learn to put it first.</p>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/treatment">
-                        <button>Learn More</button>
-                    </Link>
-                    </div>
-                </div>
-
-
-
-
+        <div className='hero-divider'>
+                <img src={wavesOpacity} loading="lazy" repeat-x alt='wave divider'/>
             </div>
 
 
+            <div className="hero-container">
+                <div className="content">
+                        <h1 className="animate-charcter">PALM SPRINGS REHAB</h1>
+                    <Fade left>
+                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
+                    </Fade>
+                        <br />
+                        <div className='hero-btn'>
+                        <Link to="/contact">
+                        <button>Get an Appointment</button>
+                    </Link>
+                    </div>
+                    <br />
+                    <Fade bottom>
+                        <p>Find your happiness and learn to put it first.</p>
+                    </Fade>
+                </div>
+            </div>
         </div>
-
 
 
 </>
