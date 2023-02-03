@@ -5,7 +5,7 @@
     height: 80vh;
     position: relative;
     top: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(50, 25, 53, 0.5);
     object-fit: cover;
 }
 
@@ -55,37 +55,7 @@
 
 
 
-/* Wave Divider - SA and MH Hero Image */
 
-.mainHero-divider {
-    width: 100%;
-    position: absolute;
-    bottom: -12rem;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    z-index: 9999;
-  }
-  
-  .mainHero-divider svg {
-    position: relative;
-    width: 100%;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 243px;
-    position: fixed;
-  }
-  
-  
-  @media screen and (max-width: 940px) {
-  
-    .mainHero-divider img {
-      display: none;
-    }
-  
-  }
   
 
 

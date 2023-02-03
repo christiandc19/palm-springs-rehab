@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(21, 3, 27, 0.521);
   }
   
   .treatment:before {

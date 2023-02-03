@@ -6,7 +6,6 @@ import './Hero.css'
 import BgVideo from '../../assets/hero-vbg.mp4'
 import HeroLogo from '../../assets/nav-logo.png'
 
-import Wave from '../../assets/waves.svg'
 
 
 
@@ -53,14 +52,15 @@ const Hero = () => {
                 </div>
 
 
-                <div className='mainHero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-                </div>
+
 
             </div>
 
 
         </div>
+
+
+
 </>
 
     )
