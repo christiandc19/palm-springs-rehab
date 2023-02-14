@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/palm-springs-rehab/static/css/main.ff46d8d4.css",
-    "main.js": "/palm-springs-rehab/static/js/main.f31730b6.js",
+    "main.css": "/palm-springs-rehab/static/css/main.51110e64.css",
+    "main.js": "/palm-springs-rehab/static/js/main.24033cb6.js",
     "static/media/whatwedo.png": "/palm-springs-rehab/static/media/whatwedo.bc99304c70e92530ca15.png",
     "static/media/footer-bg.jpg": "/palm-springs-rehab/static/media/footer-bg.e0bb44f7d76fe9ddc12b.jpg",
     "static/media/hero-bg.jpg": "/palm-springs-rehab/static/media/hero-bg.9405700073f2e3548ccd.jpg",
@@ -20,7 +20,6 @@
     "static/media/treatment-1.jpg": "/palm-springs-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/card2.jpg": "/palm-springs-rehab/static/media/card2.a44ffd3ac73c9d8f1d87.jpg",
     "static/media/treatment-2.jpg": "/palm-springs-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/activity.jpg": "/palm-springs-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/mh-card3.jpg": "/palm-springs-rehab/static/media/mh-card3.5b2d2f3bf85aa239c40a.jpg",
     "static/media/mh-card2.jpg": "/palm-springs-rehab/static/media/mh-card2.f6b5d2e625a6f622290a.jpg",
     "static/media/team.jpg": "/palm-springs-rehab/static/media/team.24202f3813533aeb44a6.jpg",
@@ -43,11 +42,11 @@
     "static/media/wavesOpacity.svg": "/palm-springs-rehab/static/media/wavesOpacity.2316fd1a7f32364de1036bcd51ab7756.svg",
     "index.html": "/palm-springs-rehab/index.html",
     "static/media/waves.svg": "/palm-springs-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.ff46d8d4.css.map": "/palm-springs-rehab/static/css/main.ff46d8d4.css.map",
-    "main.f31730b6.js.map": "/palm-springs-rehab/static/js/main.f31730b6.js.map"
+    "main.51110e64.css.map": "/palm-springs-rehab/static/css/main.51110e64.css.map",
+    "main.24033cb6.js.map": "/palm-springs-rehab/static/js/main.24033cb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff46d8d4.css",
-    "static/js/main.f31730b6.js"
+    "static/css/main.51110e64.css",
+    "static/js/main.24033cb6.js"
   ]
 }
