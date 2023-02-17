@@ -36,7 +36,7 @@ const WhatWeDo = () => {
 
     <Fade right>
     <div className="box-right">
-        <img src={WhatWeDoImg} width="350px" height="520px" alt="Conselling Session with a patient" loading="lazy" />
+        <img src={WhatWeDoImg} alt="office team" loading="lazy" />
     </div>
 
     <div className="box-right2">

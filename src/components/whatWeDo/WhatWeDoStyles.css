@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+
+
+
 .wrap {
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
   margin: 1rem 0 0 0;
+  background: url('../../assets/whatwedo-bg.jpg')no-repeat center center/cover;
 }
 
 .box {
@@ -15,12 +19,14 @@
 }
 
 .box-right {
-    width: 500px;
+    width: 600px;
     text-align: center;
 }
 
 .box-right img{
-    max-width: auto;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
 }
 
 .box-right2 {
