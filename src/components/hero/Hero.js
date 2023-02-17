@@ -3,12 +3,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
-import HeroLogo from '../../assets/nav-logo.png'
 
 import wavesOpacity from '../../assets/wavesOpacity.svg'
-
-
 
 const Hero = () => {
     return (
@@ -32,7 +28,7 @@ const Hero = () => {
                         <br />
                         <div className='hero-btn'>
                         <Link to="/contact">
-                        <button>Get an Appointment</button>
+                        <button>GET AN APPOINTMENT</button>
                     </Link>
                     </div>
                     <br />

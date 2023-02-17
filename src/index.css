@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: #0c254b;
+  --primary-color: #125222;
   --primary-dark: #0d2154;
   --secondary-color: #46a828;
 
@@ -299,7 +299,7 @@ margin: 0px 5px;
 }
 
 
-/* Wave Divider - SA and MH Hero Image */
+/* Wave Divider*/
 
 .hero-divider {
   position: absolute;

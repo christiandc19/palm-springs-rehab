@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>My Account</h3>
+                        <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mission'><p>Our Mission</p></Link>
@@ -35,10 +35,12 @@ const Footer = () => {
                         <Link to='/about-us'><p>About Us</p></Link>
                         </LinkRoll>
 
-
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/treatment'><p>Programs</p></Link>
+                        </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Programs</p></Link>
+                        <Link to='/jobs'><p>Jobs Assitance</p></Link>
                         </LinkRoll>
                     </div>
 
