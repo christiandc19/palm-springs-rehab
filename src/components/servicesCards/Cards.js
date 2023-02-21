@@ -16,15 +16,17 @@ const Cards = () => {
   return (
     <>
 
-            <div className="cards-header container">
-                <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
-            </div>
+<div className="cards-header container">
+    <h1>WE OFFER VARIOUS SERVICES </h1>
+    <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+</div>
+
 <div class="card-wrap">
-<div class="tile"> 
-  <Fade left>
-  <img src={Card1} alt="Mental Health" loading="lazy"/>
-  </Fade>
+  <div class="tile"> 
+    <Fade left>
+    <img src={Card1} alt="Mental Health" loading="lazy"/>
+    </Fade>
+    <h1>MENTAL HEALTH TREATMENT​</h1>
   <div class="text">
   <h1>MENTAL HEALTH TREATMENT​</h1>
   <p class="animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety. Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
