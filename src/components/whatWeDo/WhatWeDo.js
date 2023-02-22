@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import WhatWeDoImg from '../../assets/whatwedo.png'
+import WhatWeDoImg from '../../assets/whatwedo-2.jpg'
 import WhatWeDoImg2 from '../../assets/whatwedo2.png'
 
 
