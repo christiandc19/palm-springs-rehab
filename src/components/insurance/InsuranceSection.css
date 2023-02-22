@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    padding: 3rem 0;
 }
 
 .InsuranceSection-container {
@@ -44,12 +45,58 @@
     margin: 1rem auto;
 }
 
+
 .team {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    width: 100%;
-    margin-bottom: -2rem;
+    margin: 3rem 0;
+    background: rgb(39,110,37);
+    background: linear-gradient(180deg, rgba(39,110,37,0.3379726890756303) 47%, rgba(255,255,255,1) 100%);}
+
+.teamImage {
+    width: 450px;
 }
+
+.team img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.teamCaption {
+    width: 700px;
+}
+
+.teamCaption h1 {
+    font-size: 3rem;
+    padding: 15rem 1rem 5rem 0;
+    text-align: center;
+}
+
+
+
+.wrap-divider-top {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+
+  .wrap-divider-top img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 940px) {
+  
+    .wrap-divider-top img {
+      display: none;
+    }
+  }
+
 
 @media  screen and (max-width:940px) {
     .InsuranceSection-container h1 {
@@ -62,10 +109,10 @@
         font-size: 14px;
     }
 
-    .team img {
-        width: 350px;
+    .teamCaption h1 {
+        font-size: 2rem;
+        padding: 5rem 1rem;
     }
-
 
 }
 

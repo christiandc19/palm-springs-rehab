@@ -12,7 +12,8 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
-import Team from '../../assets/team.jpg'
+import Team from '../../assets/team.png'
+import Wave2 from '../../assets/wave2.svg'
 
 
 const InsuranceSection = () => {
@@ -85,15 +86,25 @@ const InsuranceSection = () => {
                 </div>
             </div>
 
-
-            <div className='team'>
+<div>
+<div class="wrap-divider-top">
+<img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
+</div>
+        <div className='team'>
             <Fade bottom>
-                <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
+                <div className='teamCaption'>
+                    <h1>Don't delay care for you and those you love. . .</h1>
+                </div>
+            </Fade>
+
+
+            <Fade bottom>
+                <div className='teamImage'>
+                    <img src={Team}  alt="Company Team" loading="lazy" />
+                </div>
             </Fade>
             </div>
-
-
-
+            </div>
         </div>
         </>
     )
