@@ -35,32 +35,22 @@
     border-radius: 1rem;
 }
 
-.InsuranceSection .flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.insuranceSection-btn button {
-    margin: 1rem auto;
-}
-
-
 .team {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 3rem 0;
-    background: rgb(39,110,37);
-    background: linear-gradient(180deg, rgba(39,110,37,0.3379726890756303) 47%, rgba(255,255,255,1) 100%);}
+    background: url('../../assets/team-bg.jpg') no-repeat center top/cover;
+}
 
 .teamImage {
-    width: 450px;
+    width: 500px;
 }
 
 .team img {
     width: 100%;
     padding: 2rem;
+    margin-bottom: -2.2rem;
 }
 
 .teamCaption {
@@ -72,7 +62,6 @@
     padding: 15rem 1rem 5rem 0;
     text-align: center;
 }
-
 
 
 .wrap-divider-top {
