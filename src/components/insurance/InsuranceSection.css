@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .InsuranceSection {
     width: 100%;
     position: relative;
@@ -11,6 +12,8 @@
     width: 100%;
     padding: 3rem 0;
 }
+
+
 
 .InsuranceSection-container {
     text-align: center;
@@ -27,12 +30,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.insurance-thumbnail {
+    width: 220px;
+}
+
 .insurance-thumbnail img {
     margin: 5px;
-    width: 120px;
-    padding: 5px;
+    width: 200px;
+    padding: 1rem;
     border: 1px solid var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 3rem;
 }
 
 .team {
@@ -40,7 +47,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 3rem 0;
-    background: url('../../assets/team-bg.jpg') no-repeat center top/cover;
 }
 
 .teamImage {
@@ -59,32 +65,11 @@
 
 .teamCaption h1 {
     font-size: 3rem;
-    padding: 15rem 1rem 5rem 0;
+    padding: 10rem 1rem 5rem 0;
     text-align: center;
 }
 
 
-.wrap-divider-top {
-    position: absolute;
-    top: 5;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-  
-
-  .wrap-divider-top img {
-    width: 100%;
-  }
-  
-  @media screen and (max-width: 940px) {
-  
-    .wrap-divider-top img {
-      display: none;
-    }
-  }
 
 
 @media  screen and (max-width:940px) {
@@ -102,6 +87,20 @@
         font-size: 2rem;
         padding: 5rem 1rem;
     }
+
+    .insurance-thumbnail {
+        width: 150px;
+    }
+
+    .insurance-thumbnail img {
+        margin: 5px;
+        width: 120px;
+        padding: .5rem;
+        border: 1px solid var(--primary-color);
+        border-radius: 2rem;
+    }
+    
+    
 
 }
 

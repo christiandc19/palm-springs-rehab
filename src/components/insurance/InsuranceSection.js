@@ -16,7 +16,6 @@ import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
 import Team from '../../assets/team.png'
-import Wave2 from '../../assets/wave2.svg'
 
 
 const InsuranceSection = () => {
@@ -31,7 +30,7 @@ const InsuranceSection = () => {
 
             <div className="content">
                             <Fade bottom>
-                                <InsuranceProps Image={Aetna} />
+                                <InsuranceProps Image={Aetna} className='img'/>
                             </Fade>
 
 
@@ -74,9 +73,7 @@ const InsuranceSection = () => {
             </div>
 
 <div>
-<div class="wrap-divider-top">
-<img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
-</div>
+
         <div className='team'>
             <Fade bottom>
                 <div className='teamCaption'>
