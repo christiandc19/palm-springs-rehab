@@ -60,7 +60,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224</a></p>
+            <p><AiOutlinePhone /><a href="tel:3233295006"> +1 (123) 329-5006</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 68487 E Palm Canyon Dr, STE 44, Cathedral City CA 92234 </p>
+            <p><BsFillPinMapFill /> 37112 Maple Street, Fremont CA 95841</p>
     </div>
 
 </div>

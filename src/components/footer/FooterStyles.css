@@ -2,7 +2,7 @@
     width: 100%;
     height: 50vh;
     position: relative;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(29, 29, 29, 0.363);
     margin-top: 2rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .footer h3 {
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 2rem 0;
     text-transform: uppercase;
 }
 
@@ -91,6 +91,14 @@
     box-shadow: 0 0 8px 0 var(--primary-dark);
 }
 
+.footer form .mail-icon {
+    position: absolute;
+    font-size: 1.4rem;
+    margin: 1rem;
+    right: .2rem;
+    color: #aaa;
+    cursor: pointer;
+}
 
 .footer form .social-icon {
     margin: 1rem 1rem 1rem 0;
@@ -104,9 +112,19 @@
 
 .copyright p{
     color: white;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 940px) {
+
+    .footer h3 {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
     .footer {
         height: 100%;
     }
@@ -117,15 +135,6 @@
 
     .footer form {
         grid-column: 1 / span 2;
-    }
-
-
-    .footer h3 {
-        font-size: 14px;
-    }
-
-    .footer p {
-        font-size: 11px;
     }
 
     /* .logo-footer img{

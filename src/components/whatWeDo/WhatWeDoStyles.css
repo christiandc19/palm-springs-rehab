@@ -1,34 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
 .wrap {
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
-  margin: 1rem 0 0 0;
-  padding: 3rem 0rem 3rem 0;
-
-  background: url('../../assets/whatwedo-bg.jpg')no-repeat center center/cover;
+  margin: 5rem 0 1rem 0;
 }
 
-.box {
+.box-left {
     height: auto;
-    width: 600px;
+    width: 700px;
     display: inline-block;
     margin: 1rem;
+}
+
+.left-decription {
+    width: 100%;
 }
 
 .box-right {
     width: 600px;
     text-align: center;
     padding: 1rem;
-
 }
 
 .box-right img{
     width: 100%;
-    height: 100%;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
 }
 
 .box-right2 {
@@ -37,16 +35,12 @@
 }
 
 .wrap .header {
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 
-.box img {
-    border-radius: 10px;
-}
-
-.wrap p {
-    font-size: 15px;
+.wrap .box-left .left-description p {
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
@@ -54,6 +48,8 @@
 .box-btn {
     text-align: center;
 }
+
+
 
 /* MEDIA QUERIES */
 
@@ -77,16 +73,20 @@
         font-size: 2rem;
     }
 
-.left button {
+    .left button {
     margin: 1rem auto;
-}
+    }
 
-.box-right {
+    .box-right {
     display: none;
-}
+    }
 
-.box-right2 {
+    .box-right2 {
     display: block;
-}
+    }
+
+    .wrap .header {
+        text-align: center;
+    }
 
 }

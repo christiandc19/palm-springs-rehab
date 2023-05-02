@@ -1,8 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
 import './InsuranceSection.css'
-import InsuranceProps from './InsuranceLogos'
+
+import InsuranceLogos from './InsuranceLogos'
 
 import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
@@ -15,81 +15,52 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
-import Team from '../../assets/team.png'
+import CallUs from '../../assets/home-call.png'
 
 
 const InsuranceSection = () => {
     return (
         <>
-        <div className='InsuranceSection'>
-            <div className="InsuranceSection-container">
-                <div>
-                <h1>WE WORK WITH MAJOR INSURANCE</h1>
-                <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
-            </div>
 
-            <div className="content">
-                            <Fade bottom>
-                                <InsuranceProps Image={Aetna} className='img'/>
-                            </Fade>
+<div className='InsuranceSectionHeader'>
+    <h1>WE WORK WITH MAJOR INSURANCE</h1>
+    <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
+</div>
+<Fade bottom>
+<div className='insuranceLogosContainer container'>
 
+<InsuranceLogos Image={Aetna} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Beacon} />
-                            </Fade>
+<InsuranceLogos Image={Beacon} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Bluecross} />
-                            </Fade>
+<InsuranceLogos Image={Bluecross} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Cigna} />                           
-                            </Fade>
+<InsuranceLogos Image={Cigna} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Horizon} />
-                            </Fade>
+<InsuranceLogos Image={Horizon} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={UMR} />
-                            </Fade>
+<InsuranceLogos Image={UMR} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={United} />
-                            </Fade>
+<InsuranceLogos Image={United} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Optima} />
-                            </Fade>
+<InsuranceLogos Image={Optima} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Optum} />
-                            </Fade>
+<InsuranceLogos Image={Optum} />
 
-                            <Fade bottom>
-                                <InsuranceProps Image={Anthem} />
-                            </Fade>
-                </div>
-            </div>
+<InsuranceLogos Image={Anthem} />
 
-<div>
-
-        <div className='team'>
-            <Fade bottom>
-                <div className='teamCaption'>
-                    <h1>Don't delay care for you and those you love. . .</h1>
-                </div>
-            </Fade>
+</div>
+</Fade>
 
 
-            <Fade bottom>
-                <div className='teamImage'>
-                    <img src={Team}  alt="Company Team" loading="lazy" />
-                </div>
-            </Fade>
-            </div>
-            </div>
-        </div>
+<div className='call'>
+    <Fade bottom>
+        <img src={CallUs} alt="Company Team" loading="lazy" />
+    </Fade>
+</div>
+
+
+
         </>
     )
 }

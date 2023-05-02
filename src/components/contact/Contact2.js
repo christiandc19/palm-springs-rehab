@@ -43,14 +43,14 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">68487 E Palm Canyon Dr, STE 44</div>
-          <div class="text-two">Cathedral City CA 92234</div>
+          <div class="text-one">37112 Maple Street</div>
+          <div class="text-two">Fremont CA 95841</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234521224"> +1 (323) 452-1224</a></div>
+          <div class="text-one"><a href="tel:3233304771"> +1 (323) 330-4771</a></div>
         </div>
 
         <div class="email details">
