@@ -78,3 +78,17 @@
     padding: .8rem .9rem .4rem .9rem;
     color: white;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+    .homeSection1 .homeSection1-header h1{
+        font-size: 2rem;
+     }
+
+     .homeSection1 {
+        padding: 5rem 0 3rem 0;
+    }
+
+    }

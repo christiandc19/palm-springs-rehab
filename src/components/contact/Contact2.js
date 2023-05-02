@@ -44,7 +44,7 @@ const ContactForm = () => {
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
           <div class="text-one">37112 Maple Street</div>
-          <div class="text-two">Fremont CA 95841</div>
+          <div class="text-two">Palm Springs CA 95841</div>
         </div>
 
         <div class="phone details">

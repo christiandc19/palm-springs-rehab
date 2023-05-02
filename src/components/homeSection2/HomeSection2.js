@@ -16,7 +16,7 @@ const HomeSection2 = () => {
             <div className='homeSection2-right'>
                 <h1>ABOUT PALM SPRINGS REHAB</h1>
                 <h2>Quality Care from Quality Experts.</h2>
-                <p>At Fremont Rehab, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
+                <p>At Palm Springs Rehab, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
                              
                 <div className='checklist'>
                     <div className='homeSection2-icon'><BsCheckLg />
