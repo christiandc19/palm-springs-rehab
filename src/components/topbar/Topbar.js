@@ -18,25 +18,25 @@ const Topbar = () => {
             <MdLocationPin />
           </span>
           <div className="address-header">
-            <p>23412 Moulton Pkwy, Laguna Hills, CA 92653</p>
+            <p>68487 E Palm Canyon Dr Cathedral City CA 92234</p>
           </div>
         </div>
 
         <div className="email bar-box2">
           <span>
-            <FiMail />
+            <FiMail/>
           </span>
           <div>
-            <p>Info@palmspringsrehab.com</p>
+            <p> Info@palmspringsrehab.biz</p>
           </div>
         </div>
 
-        <div className="number bar-box3 hide">
+        <div className="number bar-box3">
           <span>
             <AiOutlinePhone />
           </span>
           <div>
-            <p>+1 (323) 452-1224</p>
+            <p>(323) 452-1224</p>
           </div>
         </div>
       </div>
