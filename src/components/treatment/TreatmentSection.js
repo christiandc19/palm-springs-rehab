@@ -4,15 +4,15 @@ import Fade from 'react-reveal/Fade';
 import TreatmentImage1 from '../../assets/treatment-1.jpg'
 import TreatmentImage2 from '../../assets/treatment-2.jpg'
 
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 import { RiMovieFill } from 'react-icons/ri';
 import { GiBowlingStrike } from 'react-icons/gi';
-import { FaUmbrellaBeach } from 'react-icons/fa';
-import { FaGolfBall } from 'react-icons/fa';
+import { FaUmbrellaBeach } from 'react-icons/bs';
+import { FaGolfBall } from 'react-icons/bs';
 import { IoIosBonfire } from 'react-icons/io';
 import { GiSparkles } from 'react-icons/gi';
 import { MdSportsSoccer } from 'react-icons/md';
-import { FaHiking } from 'react-icons/fa';
+import { FaHiking } from 'react-icons/bs';
 import { MdPool } from 'react-icons/md';
 import { MdVolunteerActivism } from 'react-icons/md';
 
@@ -65,13 +65,13 @@ const TreatmentSection = () => {
             Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc.
             <ul> <br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
+                <BsCheck className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
                 </li><br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
+                <BsCheck className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
                 </li><br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
+                <BsCheck className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
                 </li>
             </ul>
             </p>

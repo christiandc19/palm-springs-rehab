@@ -6,7 +6,7 @@ import TreatmentImage2 from '../../assets/treatment-2.jpg'
 
 import Activities from '../../assets/activities-min.png'
 
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 
 import './MethodSection.css'
 
@@ -64,13 +64,13 @@ const TreatmentSection = () => {
             Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc.
             <ul> <br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
+                <BsCheck className='star'/> Counselor and client will set clear and tangible goals regarding above mentioned obstacles.
                 </li><br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
+                <BsCheck className='star'/> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
                 </li><br/>
                 <li>
-                <FaRegStar className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
+                <BsCheck className='star'/> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
                 </li>
             </ul>
             </p>
@@ -90,35 +90,35 @@ const TreatmentSection = () => {
             Palm Springs Rehab Rehab promotes fun activities that clients learn how to develop interests and hobbies that helps then improve their mental health. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:
             <ul> <br/>
                 <li>
-                <FaRegStar className='star'/> Movies.
+                <BsCheck className='star'/> Movies.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Bowling.
+                <BsCheck className='star'/> Bowling.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Beach/Lake Activities.
+                <BsCheck className='star'/> Beach/Lake Activities.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Miniature Golf.
+                <BsCheck className='star'/> Miniature Golf.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Bonfires (Weather permitting).
+                <BsCheck className='star'/> Bonfires (Weather permitting).
                 </li>
                 <li>
-                <FaRegStar className='star'/> Amusement Parks (Knott's Berry Farm, Disneyland, Magic Mountain).
+                <BsCheck className='star'/> Amusement Parks (Knott's Berry Farm, Disneyland, Magic Mountain).
                 </li>
                 <li>
-                <FaRegStar className='star'/> Major League Baseball Games.
+                <BsCheck className='star'/> Major League Baseball Games.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Hiking/Nature walk.
+                <BsCheck className='star'/> Hiking/Nature walk.
                 </li>
                 <li>
-                <FaRegStar className='star'/> Community Pool.
+                <BsCheck className='star'/> Community Pool.
                 </li>                <li>
-                <FaRegStar className='star'/> NHL Hockey Games.
+                <BsCheck className='star'/> NHL Hockey Games.
                 </li>                <li>
-                <FaRegStar className='star'/> Fundraisers for Local Alano Clubs (Chili Cookoffs, Picnics, BBQ’s, Etc.)
+                <BsCheck className='star'/> Fundraisers for Local Alano Clubs (Chili Cookoffs, Picnics, BBQ’s, Etc.)
 .
                 </li>
             </ul>
@@ -141,11 +141,11 @@ const TreatmentSection = () => {
         <p>
         <ul>
             <li>
-                <h3><FaRegStar className='star'/> Individual Sessions.</h3><br/>
+                <h3><BsCheck className='star'/> Individual Sessions.</h3><br/>
                 <p>All program Clients will receive, at a minimum, one weekly individual session. The focus of the individual sessions will range from completion of the assessment, completion of the treatment plan.</p>
             </li><br/>
             <li>
-                <h3><FaRegStar className='star'/> Group Sessions.</h3><br/>
+                <h3><BsCheck className='star'/> Group Sessions.</h3><br/>
                 <p>Groups provide face to face contact with two or more clients and one or more counselor that are facilitated by staff. </p>
             </li>
             </ul> 
@@ -158,31 +158,31 @@ const TreatmentSection = () => {
       
       <ul>
                 <li>
-                <h3><FaRegStar className='star'/> Cognitive Behavioral Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Cognitive Behavioral Therapy.</h3><br/>
                 <p>This method helps you develop your way of thinking towards difficult situation and handle your emotional challenges in a lightly manner.</p>
                 </li><br/>
                 <li>
-                <h3><FaRegStar className='star'/> Family Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Family Therapy.</h3><br/>
                 <p>This method focuses to help manage conflicts and struggles within family members. Our goal is to help a family find a healthier ways of resolving a difficult situations. </p>
                 </li><br/>
                 <li>
-                <h3><FaRegStar className='star'/> Art Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Art Therapy.</h3><br/>
                 <p>This method is an effective treatment to individuals experiencing mental health struggles with the use of arts. With this method, the patients can express their feelings and emotions in a creative way in a one-on-one or small-group settings. </p>
                 </li><br/>
                 <li>
-                <h3><FaRegStar className='star'/> Hypnotherapy.</h3><br/>
+                <h3><BsCheck className='star'/> Hypnotherapy.</h3><br/>
                 <p>This method involves exercises that allows the patient to enter into an deeply and calm state, physically and mentally, guided by a trained hypnotherapist. This will help the patient go back to past his/her past memories and explore the emotional struggles which is hidden from the concious mind. </p>
                 </li><br/>
                 <li>
-                <h3><FaRegStar className='star'/> Dialectal Behavioral Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Dialectal Behavioral Therapy.</h3><br/>
                 <p>This method is to help you learn skills on how to accept and understand your difficult feelings. This therapy tries to change negative feelings into positive behavior. </p>
                 </li><br/>    
                 <li>
-                <h3><FaRegStar className='star'/> Psychodynamic Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Psychodynamic Therapy.</h3><br/>
                 <p>This method is used to describe the study of emotional forces and processes, particularly those that develop during the childhood stage, and their effects on behavior and mental states. Psychodynamic therapy is a form of talking therapy that helps clients deal with depression, anxiety, pain, and other mental issues.</p>
                 </li><br/>      
                 <li>
-                <h3><FaRegStar className='star'/> Interpersonal Therapy.</h3><br/>
+                <h3><BsCheck className='star'/> Interpersonal Therapy.</h3><br/>
                 <p>This method is used to describe the study of emotional forces and processes, particularly those that develop during the childhood stage, and their effects on behavior and mental states. Psychodynamic therapy is a form of talking therapy that helps clients deal with depression, anxiety, pain, and other mental issues.</p>
                 </li><br/>
             </ul>
