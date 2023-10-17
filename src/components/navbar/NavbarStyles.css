@@ -188,7 +188,7 @@
       }
 
       #submenu-item li {
-        padding: .2rem 1rem;
+        padding: .1rem .5rem;
       }
 
       .sub__menus {
@@ -205,9 +205,9 @@
 
 }
 
-
+/* 
 @media screen and (max-width: 600px) {
   .sub__menus {
     left: -3rem;
   }
-}
+} */
