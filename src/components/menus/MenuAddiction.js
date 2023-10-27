@@ -14,7 +14,7 @@ const MenuAddiction = () => {
 
       <div className="menu-addiction-header">
         <h1>
-          Palm Springs Rehab TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+          PALM SPRINGS REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
           PROGRAMS
         </h1>
         <p>
