@@ -32,7 +32,7 @@ video {
 }
 
 .hero .hero-container h1 {
-    color: rgb(235, 230, 225);
+    color: rgb(224, 216, 207);
     letter-spacing: 3px;
     font-size: 2rem;
     font-weight: bolder;
@@ -43,14 +43,14 @@ video {
 
 .hero h2 {
     font-size: 2rem;
-    color: rgb(235, 230, 225);
+    color: rgb(224, 216, 207);
     font-family: 'El Messiri', sans-serif;
     letter-spacing: 1px;
 }
 
 .hero h3 {
     font-size: 1.5rem;
-    color: rgb(235, 230, 225);
+    color: rgb(224, 216, 207);
     font-family: 'El Messiri', sans-serif;
     padding: .5rem 0;
     letter-spacing: 1px;
