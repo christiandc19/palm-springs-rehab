@@ -36,7 +36,7 @@ const Topbar = () => {
             <AiOutlinePhone />
           </span>
           <div>
-            <p>(323) 452-1224</p>
+            <p><a href="tel:3234521224"> +1 (323) 452-1224</a></p>
           </div>
         </div>
       </div>

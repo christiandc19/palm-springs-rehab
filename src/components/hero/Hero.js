@@ -15,7 +15,7 @@ const Hero = () => {
             <div className="hero-container">
 
                 <div className="content">
-                        <h2>A journey to Healing and Renewed Well-being</h2>
+                        <h2>Journey. Healing. Well-being.</h2>
                         <h1>PALM SPRINGS REHAB</h1>
                     <Fade left>
                         <h3>Addiction and Mental Health Facility</h3>

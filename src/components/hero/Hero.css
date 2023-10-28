@@ -42,7 +42,7 @@ video {
   
 
 .hero h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(235, 230, 225);
     font-family: 'El Messiri', sans-serif;
     letter-spacing: 1px;
@@ -59,8 +59,8 @@ video {
 
 .hero .hero-btn button {
     cursor: pointer;
-    color: black;
-    background-color: rgb(236, 228, 228);
+    color: rgb(248, 246, 246);
+    background-color: #0F4C75;
     border: none;
     padding: .5rem 2rem;
     border-radius: 5px;

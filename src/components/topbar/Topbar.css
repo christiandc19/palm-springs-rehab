@@ -18,6 +18,13 @@
     text-align: left;
 }
 
+.topbar .topbar-content a {
+    font-size: 14px;
+    text-align: left;
+    color: #f5efef;
+}
+
+
 .topbar .bar-box1 {
     display: flex;
     width: auto;
