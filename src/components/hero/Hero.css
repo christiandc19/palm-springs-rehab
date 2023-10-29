@@ -71,7 +71,7 @@ video {
 
 /* MEDIA QUERIES */
 
-@media (orientation: portrait), (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .hero h2 {
         font-size: 15px;
@@ -87,3 +87,24 @@ video {
 
 
 }
+
+
+
+@media only screen and (max-height: 670px) and (orientation: landscape) {
+    .hero .hero-container {
+        bottom: 0%;
+    }
+
+    .hero .hero-container h1 {
+        font-size: 2rem;
+        }
+
+    .hero h2 {
+        font-size: 1rem;
+    }
+
+    .hero h3 {
+        font-size: 1rem;
+    }
+    
+    }
